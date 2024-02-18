@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200;1,400&display=swap");
+
+:root {
+  --black: #000;
+  --navbar: #edb953;
+  --form: #ffe600;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #68cbe2;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.profil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.user img {
+  border: 1px solid var(--black);
+  border-radius: 100%;
+  background: var(--navbar);
+  padding: 7px;
+}
+
+.user-text {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.profil-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px 0px;
+}
+
+.data-user,
+.nomor-user,
+.kelas-user {
+  background: var(--form);
+  width: 300px;
+  padding: 15px 10px;
+  border-radius: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: var(--navbar);
+  border-top-left-radius: 50% 90%;
+  border-top-right-radius: 50% 90%;
+  padding: 20px 0px;
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+  bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  justify-content: space-evenly;
+  margin: 10px 30px;
+}
+
+div .log-out {
+  display: flex;
+  justify-content: center;
+}
+
+#log-out {
+  background: red;
+  border: none;
+  padding: 7px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#log-out a {
+  color: #fff;
+}
+
+#log-out:active {
+  background: rgb(255, 107, 131);
+}

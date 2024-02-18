@@ -1,0 +1,18 @@
+{
+    
+    "bagas":{
+        "nama":"Bagas",
+        "pw": 456
+    },
+
+    "sandi":{
+        "nama":"Sandi",
+        "pw": 789
+    },
+    
+    "fajar":{
+        "nama":"Alfajjar",
+        "pw" : 123
+    }
+
+}

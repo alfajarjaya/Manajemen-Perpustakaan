@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200;1,400&display=swap');
+
+:root {
+    --black: #000;
+    --bg: #68cbe2;
+    --btn: #edb953;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: var(--bg);
+}
+
+#signIn {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+hr {
+    border: 2px dashed var(--black);
+}
+
+.title-text {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.Log-In input{
+    height: 6vh;
+    border-radius: 0.5rem;
+    border: none;
+    color: var(--black);
+    padding: 0px 7px;
+}
+
+.user-name input {
+    width: 70%;
+}
+
+.passwd-user {
+    margin: 30px 0px;
+}
+
+.passwd-user input {
+    width: 70%;
+}
+
+#checkbox {
+    width: 50px;
+    height: 20px;
+}
+
+.btn {
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    background: var(--btn);
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.error {
+    color: #ff0000;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: start;
+    margin-left: 70px;
+}
+
+.logout {
+    background: rgba(0, 255, 0, 0.8);
+    margin: 20px 120px;
+    padding: 10px 0px;
+    border-radius: 20px;
+}

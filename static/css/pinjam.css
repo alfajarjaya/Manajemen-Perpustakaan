@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200;1,400&display=swap");
+
+:root {
+    --black: #000;
+    --navbar: #edb953;
+    --bg: #ffe600;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #68cbe2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.custom-shape-divider-top-1708184955 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 1;
+}
+
+.custom-shape-divider-top-1708184955 svg {
+    position: relative;
+    display: block;
+    width: calc(145% + 1.3px);
+    height: 285px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1708184955 .shape-fill {
+    fill: #fff;
+}
+
+.judul {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.judul-text {
+    display: flex;
+    justify-content: space-around;
+    background: var(--bg);
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.relative .value-date {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    overflow: auto;
+}
+
+.relative .date {
+    display: flex;
+    justify-content: space-around;
+    background: var(--bg);
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.value-data {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    margin-top: 10px;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: start;
+    background: var(--bg);
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 80%;
+    margin-top: 100px;
+}
+
+.data input {
+    display: flex;
+    justify-content: start;
+    background: var(--bg);
+    width: 100%;
+    padding: 5px;
+    border: 1px solid var(--black);
+    margin: 5px 0px;
+}
+
+.btn {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%);
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn button {
+    border: none;
+    padding: 7px 20px;
+    background: rgb(0, 176, 0);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.btn button:active {
+    background: rgba(0, 255, 0, 0.5);
+}
+
+.judul-user {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 20;
+    overflow: hidden;
+}
+
+.judul-text-user {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    background-color: var(--navbar);
+    border-radius: 15px;
+    padding: 15px 40px;
+    margin: 5px 0px;
+}
+
+.relative {
+    display: grid;
+    position: absolute;
+    overflow: auto;
+    grid-gap: 5px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 3;
+    padding-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: var(--navbar);
+    border-top-left-radius: 50% 90%;
+    border-top-right-radius: 50% 90%;
+    padding: 20px 0px;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    bottom: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 10px 30px;
+}
+
+.success {
+    z-index: 10;
+    position: relative;
+    color: rgb(255, 255, 255);
+    margin: 10px 0px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="manajemen-perpustakaan" />
+    <title>Manajemen-Perpustakaan || Login</title>
+    <link rel="stylesheet" type="text/css" href="./static/css/login.css" />
+</head>
+
+<body>
+    <section id="signIn">
+        <div class="img">
+            <img src="./static/img/login.png" alt="jpg" width="100%" />
+            <hr />
+        </div>
+        <div class="title-text">LOGIN</div>
+        <form action="{{ url_for('home') }}" class="Log-In" method="post">
+            <div class="user-name">
+                <input type="text" name="username" id="username" placeholder="Username" required />
+            </div>
+            <div class="passwd-user">
+                <input type="text" name="password" id="password" placeholder="Password" required />
+            </div>
+            <div class="error">{{ error }}</div>
+            <button class="btn" type="submit" id="btn">Masuk</button>
+
+            <script>
+                window.Login = {{ url_for('home') }}
+            </script>
+
+            <script type="text/javascript" src="./static/js/login.js"></script>
+        </form>
+    </section>
+</body>
+
+</html>

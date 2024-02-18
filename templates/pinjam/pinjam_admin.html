@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="manajemen-perpustakaan" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Hi ! {{ userName }}</title>
+    <link rel="stylesheet" href="./static/css/pinjam.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <section>
+        <div class="judul">
+            <div class="judul-text">
+                <h4>Peminjaman & Pengembalian Buku</h4>
+            </div>
+        </div>
+        <div class="custom-shape-divider-top-1708184955">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+        <form action="/admin_pinjam" method="post" id="pinjam-form">
+            <div class="value-data">
+                <div class="data">
+                    <label for="nama">Nama : </label>
+                    <input type="text" name="nama" id="nama" required placeholder="Nama...">
+                    <label for="kelas">Kelas : </label>
+                    <input type="text" name="kelas" id="kelas" required placeholder="Kelas...">
+                    <label for="pinjam">Tanggal Peminjaman : </label>
+                    <input type="date" name="pinjam" id="pinjam" required >
+                    <label for="kembali">Tanggal Pengembalian : </label>
+                    <input type="date" name="kembali" id="kembali" required>
+                    <div class="success">{{ success }}</div>
+                    <div class="btn">
+                        <button type="submit" id="to-pinjam-user">Kirim</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <footer class="footer">
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="{{ url_for('home') }}">
+                            <i data-feather="home"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('profilAdmin') }}">
+                            <i data-feather="user"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+
+    <script>
+        feather.replace();
+    </script>
+    <script type="text/javascript" src="./static/js/pinjam.js"></script>
+</body>
+
+</html>

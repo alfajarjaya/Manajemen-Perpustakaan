@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200;1,400&display=swap");
+
+:root {
+  --black: #000;
+  --navbar: #edb953;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #68cbe2;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.user {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 20vh;
+  background: #fff;
+  padding: 30px 0px;
+}
+
+.user img {
+  margin: 0px 20px;
+  border: 1px solid var(--black);
+  border-radius: 100%;
+  background-color: var(--navbar);
+}
+
+.user-text {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 10px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.daftar-buku,
+.data-buku {
+  margin: 20px 0px;
+}
+
+.menu .daftar-buku img {
+  background: #fff;
+  width: 40%;
+  border-radius: 100%;
+}
+
+.menu .data-buku img {
+  background: #fff;
+  width: 40%;
+  border-radius: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: var(--navbar);
+  border-top-left-radius: 50% 90%;
+  border-top-right-radius: 50% 90%;
+  padding: 20px 0px;
+  height: 30px;
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+  bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  justify-content: space-evenly;
+  margin: 10px 30px;
+}
