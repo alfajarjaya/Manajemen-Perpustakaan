@@ -95,3 +95,26 @@ ul li {
   justify-content: space-evenly;
   margin: 10px 30px;
 }
+
+@media only screen and (min-width:800px) and (max-width:1080px) {
+
+  body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  #main {
+    margin: 0px 150px;
+  }
+}
+
+@media only screen and (min-width:1140px) {
+
+  #main {
+    margin: 0px 500px;
+    overflow: hidden;
+  }
+}

@@ -30,11 +30,11 @@
             <div class="kelas-user">{{ nomor }}</div>
 
             <div class="log-out">
-                <div id="log-out">
-                    <a href="{{ url_for('index') }}">
+                <a href="{{ url_for('index') }}">
+                    <div id="log-out" style="color: #fff">
                         Log Out
-                    </a>
-                </div>
+                    </div>
+                </a>
                 <script>
                     window.logOut = 'login.html'
                 </script>

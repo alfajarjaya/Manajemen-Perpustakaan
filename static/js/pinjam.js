@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var dataContainer = document.getElementById("value-data");
 
     // Load data from local storage on page load
-    loadOldData();
+    // loadOldData();
 
     submitButton.addEventListener("click", function () {
         var nama = document.getElementById("nama").value;
@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!nama || !kelas || !pinjam || !kembali) {
             alert('Input Harus di isi');
         } else {
-
             return false
             // var newDiv = document.createElement("div");
             // newDiv.classList.add("data");

@@ -7,42 +7,52 @@
     <meta name="description" content="manajemen-perpustakaan" />
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <title>Hi ! {{ userName }}</title>
-    <link rel="stylesheet" href="./static/css/pinjam.css" />
+    <link rel="stylesheet" href="./static/css/dashboard_user.css" />
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
-    <section>
-        <div class="custom-shape-divider-top-1708184955">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                preserveAspectRatio="none">
-                <path
-                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-                    class="shape-fill"></path>
+    <section id="main">
+        <section>
+            <div class="user">
+                <img src="./static/img/portofolio pribadi.jpg" alt="user" width="20%" />
+                <div class="user-text">
+                    <h4>Welcome,</h4>
+                    <h2>{{ userName }}</h2>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#fff" fill-opacity="999"
+                    d="M0,288L60,288C120,288,240,288,360,261.3C480,235,600,181,720,144C840,107,960,85,1080,85.3C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                </path>
             </svg>
-        </div>
-        <div class="judul-user">
-            <div class="judul-text-user">
-                <h6>Tanggal pinjam</h6>
-                <h6>Tanggal Kembali</h6>
-            </div>
-        </div>
-        <div class="relative">
-            <div class="value-date">
-                <div class="date">
-                    <p>12-2-2024</p>
-                    <p>12-2-2024</p>
-                </div>
-            </div>
-            <div class="value-date">
-                <div class="date">
-                    <p>12-2-2024</p>
-                    <p>12-2-2024</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
+        <section class="daftar-menu">
+            <div class="menu">
+                <div class="cover">
+                    <div class="daftar-buku">
+                        <a href="">
+                            <img src="./static/img/daftar_buku.png" alt="daftar buku" width="40%" />
+                            <h6>Daftar Buku</h6>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cover">
+                    <div class="data-buku">
+                        <a href="{{ url_for('pinjamUser') }}">
+                            <img src="./static/img/diagram_batang.png" alt="data buku" width="40%" />
+                            <h6>
+                                Data Peminjaman & <br />
+                                Pengembalian buku
+                            </h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
 
     <section>
         <footer class="footer">

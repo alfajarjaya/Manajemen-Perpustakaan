@@ -1,0 +1,27 @@
+{
+    "bagas":{
+        "nama":"Bagas",
+        "pw": "Bagas"
+    },
+
+    "sandi":{
+        "nama":"Sandi",
+        "pw": "Sandi"
+    },
+    
+    "fajar":{
+        "nama":"Alfajjar",
+        "pw" : "Alfajjar"
+    },
+
+    "angel":{
+        "nama":"Angel",
+        "pw":"Angel"
+    },
+
+    "joko":{
+        "nama":"Joko",
+        "pw":"Joko"
+    }
+
+}

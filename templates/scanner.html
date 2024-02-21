@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR Code Scanner</title>
+    <title>scanner || data</title>
     <style>
         body {
             display: flex;
@@ -20,8 +20,9 @@
 </head>
 <body>
     <div>
-        <center><h1 style="color: #fff;">Scanner Qr Code</h1></center>
-        <img src="{{ video }}" width="640" height="480">
+        <video width="640" height="480" controls autoplay>
+            <source src="{{ url_for('video_feed') }}">
+        </video>
     </div>
 </body>
 </html>

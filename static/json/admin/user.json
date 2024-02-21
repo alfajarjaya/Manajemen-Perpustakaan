@@ -1,0 +1,16 @@
+{
+    "admin1":{
+        "user":"admin",
+        "password":"admin"
+    },
+
+    "admin2":{
+        "user":"petugas",
+        "password":"petugas"
+    },
+
+    "admin3":{
+        "user":"smkn1mjk",
+        "password":"smkn1mjk"
+    }
+}
