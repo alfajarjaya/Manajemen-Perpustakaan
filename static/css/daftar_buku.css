@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200;1,400&display=swap");
+
+:root {
+    --black: #000;
+    --navbar: #edb953;
+    --bg: #ffe600;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* button {
+    cursor: pointer;
+}
+
+body {
+    position: relative;
+    padding-bottom: 150px;
+}
+
+#daftar-buku {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+
+.title-buku {
+    display: flex;
+    justify-content: center;
+    background: var(--bg);
+    width: 75%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.cover {
+    background: var(--bg);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 15px 0px;
+}
+
+.cover .nama-buku {
+    display: flex;
+}
+
+.deskripsi-buku {
+    display: grid;
+    align-content: center;
+    grid-gap: 10px;
+}
+
+.setting {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px 0px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+#plus, #minus {
+    display: flex;
+    border: none;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+#plus:hover {
+    background: grey;
+}
+#minus:hover {
+    background: gray;
+}
+
+#btn {
+    padding: 2px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #14b014;
+    color: #ffff;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: var(--navbar);
+    border-top-left-radius: 50% 90%;
+    border-top-right-radius: 50% 90%;
+    padding: 20px 0px;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    bottom: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 10px 30px;
+}
+
+@media only screen and (min-width:800px) and (max-width:1080px) {
+    body {
+        margin: 0px 200px;
+    }
+}
+
+@media only screen and (min-width:1140px) {
+    body {
+        margin: 0px 500px;
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="manajemen-perpustakaan" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Hi ! {{ userName }}</title>
+    <link rel="stylesheet" href="./static/css/daftar_buku.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <section id="book">
+        <section id="daftar-buku">
+            <div class="title-buku">
+                <h1>Daftar Buku</h1>
+            </div>
+        </section>
+
+        <div class="daftar-menu">
+            <ul class="list">
+                <li class="list-item">
+                    <div class="cover">
+                        <div class="nama-buku">
+                            <img src="./static/img/buku.png" alt="daftar buku" width="40%" />
+                            <div class="deskripsi-buku">
+                                <h3>Nama Buku</h3>
+                                <form method="get">
+                                    <p>Tersisa : {{ tersisa }}</p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cover">
+                        <div class="nama-buku">
+                            <img src="./static/img/buku.png" alt="daftar buku" width="40%" />
+                            <div class="deskripsi-buku">
+                                <h3>Nama Buku</h3>
+                                <p>Tersisa : {{ tersisa }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="footer">
+        <footer class="footer">
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="{{ url_for('home') }}">
+                            <i data-feather="home" ></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('profilUser') }}">
+                            <i data-feather="user"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+
+    <script>
+        feather.replace();
+    </script>
+    <script type="text/javascript" src="./static/js/dashboard.js"></script>
+</body>
+
+</html>

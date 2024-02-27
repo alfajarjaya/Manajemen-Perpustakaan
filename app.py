@@ -14,7 +14,8 @@ app.secret_key = '1'
 
 dataUser = json.dataUser
 dataAdmin = json.dataAdmin
-    
+listBook = json.book
+
 @app.route('/')
 def index():
     return render_template('login.html', url='dashboard')
@@ -119,7 +120,31 @@ def pinjamUser():
     
     return render_template('pinjam/pinjam_user.html', userName=user)
 
-# RUN PROJECT
+@app.route('/daftar-buku', methods=['POST', 'GET'])
+def daftar_buku():
+    user = session.get('userName')
+
+    if request.method == 'POST':
+        tersisa_value = request.form.get('tersisa_value')
+        id_book = request.form.get('id')
+        session['tersisa_value'] = tersisa_value
+        return render_template('list-book/book_user.html', tersisa=tersisa_value, userName=user, book=listBook)
+
+    tersisa_value = session.get('tersisa_value')
+    print(f'sisa : {tersisa_value}')
+    return render_template('list-book/book_admin.html', tersisa=tersisa_value, userName=user, book=listBook)
+
+@app.route('/list_book', methods=['GET'])
+def list_book():
+    user = session.get('userName')
+    
+    sisa = session.get('tersisa_value')
+    
+    print(f'OKE : {sisa}')
+    
+    if request.method == 'GET':
+        return render_template('list-book/book_user.html', userName=user, tersisa=sisa)
+
 
 if __name__ == '__main__':
     if os.path.exists('D:\\produktif bu Tya\\manajemen_perpustakaan\\static\\data.xlsx'):
@@ -129,4 +154,7 @@ if __name__ == '__main__':
         workbook = openpyxl.Workbook()
         worksheet = workbook.active
 
-    app.run(debug=True)
+    app.run(
+        host='localhost',
+        debug=True
+    )

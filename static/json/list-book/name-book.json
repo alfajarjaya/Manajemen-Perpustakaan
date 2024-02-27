@@ -1,0 +1,23 @@
+{
+    "Fantasi":{
+        "fantasi_1":{
+            "id":123,
+            "judul":"Cahaya sang penyelamat"
+        },
+
+        "fantasi_2":{
+            "id":234,
+            "judul":"Cahaya yang menuntun"
+        },
+
+        "fantasi_3":{
+            "id":345,
+            "judul":"Gelap Gulita"
+        },
+
+        "fantasi_4":{
+            "id":456,
+            "judul":"Gelap Menuju Terang"
+        }
+    }
+}

@@ -7,7 +7,7 @@
     <meta name="description" content="manajemen-perpustakaan" />
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <title>Hi ! {{ userName }}</title>
-    <link rel="stylesheet" href="./static/css/dashboard_admin.css" />
+    <link rel="stylesheet" href="./static/css/dashboard_admin.css" type="text/css"/>
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
@@ -33,7 +33,7 @@
                 <div class="menu">
                     <div class="cover">
                         <div class="daftar-buku">
-                            <a href="">
+                            <a href="{{ url_for('daftar_buku') }}">
                                 <img src="./static/img/daftar_buku.png" alt="daftar buku" width="40%" />
                                 <h6>Daftar Buku</h6>
                             </a>
