@@ -128,7 +128,7 @@ def daftar_buku():
         tersisa_value = request.form.get('tersisa_value')
         id_book = request.form.get('id')
         session['tersisa_value'] = tersisa_value
-        return render_template('list-book/book_user.html', tersisa=tersisa_value, userName=user, book=listBook)
+        return render_template('list-book/book_user.html', tersisa=100000000, userName=user, book=listBook)
 
     tersisa_value = session.get('tersisa_value')
     print(f'sisa : {tersisa_value}')
