@@ -21,20 +21,26 @@ body {
     display: block;
     align-items: center;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 hr {
     border: 2px dashed var(--black);
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 .title-text {
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 600;
     color: var(--black);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px 0px;
+    text-shadow: 2px 2px 2px #fff;
 }
 
 .Log-In input{
@@ -42,18 +48,15 @@ hr {
     border-radius: 0.5rem;
     border: none;
     color: var(--black);
-    padding: 0px 7px;
-}
-
-.user-name input {
-    width: 70%;
+    padding: 0px 20px;
 }
 
 .passwd-user {
     margin: 30px 0px;
 }
 
-.passwd-user input {
+input[type="text"], input[type="password"] {
+    box-shadow: inset 3px 3px 4px rgba(0,0,0);
     width: 70%;
 }
 
@@ -64,8 +67,8 @@ hr {
 
 .btn {
     border: none;
-    border-radius: 15px;
-    padding: 10px 30px;
+    border-radius: 10px;
+    padding: 15px 50px;
     font-size: 13px;
     font-weight: bold;
     color: black;
@@ -94,7 +97,7 @@ hr {
     border-radius: 20px;
 }
 
-@media only screen and (min-width:800px) and (max-width:1080px) {
+@media only screen and (min-width:701px) and (max-width:1080px) {
     body {
         margin: 0px 200px;
     }
@@ -103,5 +106,35 @@ hr {
 @media only screen and (min-width:1140px) {
     body {
         margin: 0px 500px;
+        padding-bottom: 100px;
     }
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width:760px) {
+    body {
+        overflow: hidden;
+    }
+    
+}
+
+.check-passwd {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: -30px;
+    margin-bottom: 40px;
+    position: relative;
+    left: 17%;
+}
+
+#checkPw {
+    margin: 0px 10px;
 }

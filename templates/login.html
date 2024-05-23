@@ -1,36 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en, id" style="scroll-behavior: smooth !important">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="manajemen-perpustakaan" />
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="manajemen-perpustakaan">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta name="keywords" content="manajemen, perpustakaan, kurikulum merdeka">
+
+    <meta name="author" content="kelompok 8, produktif mapel pilihan, kurikulum merdeka">
+
+    <meta property="og:url" content="https://smkn1mojokerto.sch.id/sistem-manajemen-perpustakaan/">
+    <meta property="og:title" content="manajemen-perpustakaan">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id, ID">
+    <meta property="og:description" content="manajemen-perpustakaan">
+
     <title>Manajemen-Perpustakaan || Login</title>
-    <link rel="stylesheet" type="text/css" href="./static/css/login.css" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/logOut.css') }}" />
+    <link rel="shortcut icon" href="{{url_for('static', filename='img/skanesa.ico')}}" type="image/x-icon">
+
 </head>
 
 <body>
     <section id="signIn">
         <div class="img">
-            <img src="./static/img/login.png" alt="jpg" width="100%" />
-            <hr />
+            <img src="{{url_for('static', filename='img/login.png')}}" alt="jpg" width="100%" />
+            <hr>
         </div>
-        <div class="title-text">LOGIN</div>
-        <form action="{{ url_for('home') }}" class="Log-In" method="post">
+        <div class="title-text">LOGIN DULU</div>
+        <form action="{{ url_for('login') }}" class="Log-In" method="post" >
             <div class="user-name">
                 <input type="text" name="username" id="username" placeholder="Username" required />
             </div>
             <div class="passwd-user">
-                <input type="text" name="password" id="password" placeholder="Password" required />
+                <input type="password" name="password" id="password" placeholder="Password" required class="pw" />
             </div>
-            <div class="error">{{ error }}</div>
+            <div class="check-passwd">
+                <input type="checkbox" name="checkPw" id="checkPw">
+                <label for="checkPw" style="color: #000">Lihat Password</label>
+            </div>
+            <div class="error">{{ nf }}</div>
             <button class="btn" type="submit" id="btn">Masuk</button>
 
-            <script>
-                window.Login = {{ url_for('home') }}
-            </script>
-
-            <script type="text/javascript" src="./static/js/login.js"></script>
+           
+            <script type="text/javascript" src="{{url_for('static', filename='js/login.js')}}"></script>
+            <script type="module" src="{{url_for('static', filename='js/disableMouse.js')}}"></script>
         </form>
     </section>
 </body>

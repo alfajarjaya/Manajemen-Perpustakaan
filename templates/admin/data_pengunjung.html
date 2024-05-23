@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en, id" style="scroll-behavior: smooth !important">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="manajemen-perpustakaan">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta name="keywords" content="manajemen, perpustakaan, kurikulum merdeka">
+
+    <meta name="author" content="kelompok 8, produktif mapel pilihan, kurikulum merdeka">
+
+    <meta property="og:url" content="https://smkn1mojokerto.sch.id/sistem-manajemen-perpustakaan/">
+    <meta property="og:title" content="manajemen-perpustakaan">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id, ID">
+    <meta property="og:description" content="manajemen-perpustakaan">
+
+    <title>Hi ! {{ userName }}</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/profil.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/client/pinjam.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/daftar_buku.css') }}" type="text/css" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/skanesa.ico') }}" type="image/x-icon">
+
+    <script type="text/javascript" src="{{url_for('static', filename='js/disableMouse.js')}}"></script>
+
+    <style>
+        @media only screen and (min-width:701px) and (max-width:1080px) {
+            body {
+                margin: 0px 200px;
+            }
+        }
+
+        @media only screen and (min-width:1140px) {
+            body {
+                margin: 0px 300px;
+                padding-bottom: 100px;
+            }
+        }
+
+        .header ,.data h5 {
+            font-size: 18px;
+            padding: 10px 0px;
+            border-bottom: none;
+        }
+
+        .btn {
+            margin: 0;
+            padding: 0;
+            width: 10%;
+            background: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main class="main">
+        <section class="title">
+            <div class="nav-title">
+                <div class="text">
+                    <h2>Data Pengunjung Perpustakaan</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="body">
+            <div class="data-header">
+                <div class="header nth">
+                    <h5>NISN</h5>
+                    <h5>NAMA</h5>
+                    <h5>KELAS</h5>
+                    <h5>JURUSAN</h5>
+                </div>
+            </div>
+            <div class="data-body">
+                {% if data is not none %}
+                {% for a,b,c,d,e in data %}
+                <div class="data" style="display: flex; align-items: center; text-align: center; border-bottom: 2px solid #000; ">
+                        <input type="checkbox" value="{{ b,c }}" data-index="{{ a }}" class="check">
+                        <h5>{{ b }}</h5>
+                        <h5>{{ c }}</h5>
+                        <h5>{{ d }}</h5>
+                        <h5>{{ e }}</h5>
+                    </div>
+                    {% else %}
+                    <div class="data">
+                        <h5>Tidak ada data</h5>
+                </div>
+                {% endfor %}
+                {% endif %}
+            </div>
+        </section>
+    </main>
+    
+    <section class="nv">
+        <footer class="footer">
+            <div class="navbar">
+                <ul class="nav-link">
+                    <li class="active">
+                        <a href="{{ url_for("home") }}">
+                            <img src="{{ url_for('static', filename='img/home.png') }}" alt="home" width="30px" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('profil') }}">
+                            <img src="{{ url_for('static', filename='img/user.png') }}" alt="user" width="45px" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" id="btnHref">
+                            <img src="{{ url_for('static', filename='img/trash.svg') }}" alt="trash" width="30px" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+    
+    <script type="text/javascript" src={{ url_for('static', filename="js/dataPengunjung.js")}}></script>
+</body>
+
+</html>

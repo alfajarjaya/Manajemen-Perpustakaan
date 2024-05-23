@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en, id" style="scroll-behavior: smooth !important">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="manajemen-perpustakaan">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta name="keywords" content="manajemen, perpustakaan, kurikulum merdeka">
+
+    <meta name="author" content="kelompok 8, produktif mapel pilihan, kurikulum merdeka">
+
+    <meta property="og:url" content="https://smkn1mojokerto.sch.id/sistem-manajemen-perpustakaan/">
+    <meta property="og:title" content="manajemen-perpustakaan">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id, ID">
+    <meta property="og:description" content="manajemen-perpustakaan">
+
+    <title>Hi ! {{ userName }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/profil.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/logOut.css') }}" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/skanesa.ico') }}" type="image/x-icon" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <style>
+        @media only screen and (max-width: 800px) {
+            .alert-book {
+                margin-top: 50%;
+            }
+        }
+        
+        @media only screen and (min-width:1000px) {
+            .alert-book {
+                margin-top: 0;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <section class="profil">
+        <div class="user">
+            <img src="{{ url_for('static', filename='img/portofolio pribadi.jpg') }}" alt="user" width="20%" />
+            <div class="user-text">
+                <h2>{{ nama }}</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="profil-data">
+        <div class="data">
+            <div class="data-user">
+                <h4>Username</h4>
+                <p>{{ nama }}</p>
+            </div>
+            <div class="nomor-user">
+                <h4>Nomor Induk</h4>
+                <p>{{ nomor }}</p>
+            </div>
+            <div class="kelas-user">
+                <h4>Kelas</h4>
+                <p>{{ kelas }}</p>
+            </div>
+            <button type="button" class="qrcode kelas-user" id="qrcode">
+                QR Code Profil
+            </button>
+
+            <div class="log-out">
+                <button type="button" id="btnLogout" onclick="alert()">Log Out</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="myAlert" class="overlay">
+        <div class="cover-alert">
+            <div class="alert-book">
+                <div class="desc">
+                    <h3>Qr Code Profil</h3>
+                    <hr>
+                    <img src="{{ img }}" class="img-qrcode" width="auto">
+                </div>
+                <style> 
+                    .img-qrcode {
+                        margin: 50px 0px;
+                    }
+                </style>
+                <div class="buttn" style="display: grid; justify-items: center">
+                    <button type="button" class="btn" id="btn-cancel">
+                        Tutup
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nv">
+        <footer class="footer">
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="{{ url_for("home") }}">
+                            <img src="{{ url_for('static', filename='img/home.png') }}" alt="home" width="30px" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="{{ url_for('static', filename='img/user.png') }}" alt="user" width="45px" />
+                        </a>
+                    </li>
+                    <style>
+                        ul {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 15px;
+                        }
+                    </style>
+                </ul>
+            </div>
+        </footer>
+    </section>
+
+    <script type="text/javascript">
+        function alert() {
+            const swalButtons = Swal.mixin({
+                customClass: {
+                    confirmButton: "#ya",
+                    cancelButton: "#tidak"
+                },
+                buttonsStyling: false
+            });
+
+            swalButtons.fire({
+                text: "Apakah kamu yakin ingin keluar?",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonText: "Ya",
+                cancelButtonText: "Tidak",
+                reverseButtons: true
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = "{{ url_for('logout') }}";
+                }
+            });
+        }
+
+        document.getElementById('qrcode').addEventListener('click', () => {
+            document.getElementById('myAlert').style.display = 'block';
+        });
+
+        document.getElementById('btn-cancel').addEventListener('click', () => {
+            document.getElementById('myAlert').style.display = 'none';
+        });
+    </script>
+</body>
+
+</html>

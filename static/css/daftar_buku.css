@@ -37,21 +37,36 @@ body {
     border-radius: 20px;
 }
 
+.list {
+    list-style: none;
+}
+
 .cover {
     background: var(--bg);
     padding: 10px;
     border-radius: 15px;
-    margin: 15px 0px;
+    margin: 20px 15px;
 }
 
 .cover .nama-buku {
     display: flex;
 }
 
+.cover .cover-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+}
+
 .deskripsi-buku {
     display: grid;
-    align-content: center;
-    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
 }
 
 .setting {
@@ -60,11 +75,6 @@ body {
     margin: 5px 0px;
 }
 
-.btn {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0px;
-}
 
 #plus, #minus {
     display: flex;
@@ -104,21 +114,21 @@ a {
     height: 30px;
     width: 100%;
     position: fixed;
-    z-index: 99999;
+    z-index: 90;
     left: 0;
     bottom: 0;
 }
 
-ul {
+.nav-link {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    align-items: center;
 }
 
-ul li {
-    display: inline-block;
-    justify-content: space-evenly;
-    margin: 10px 30px;
+.nav-link .active {
+    margin: 10px 20px;
 }
 
 @media only screen and (min-width:800px) and (max-width:1080px) {
@@ -127,8 +137,65 @@ ul li {
     }
 }
 
-@media only screen and (min-width:1140px) {
-    body {
-        margin: 0px 500px;
-    }
+input {
+    padding: 3px 5px;
+}
+
+.buttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    margin: 10px 0px;
+}
+
+button[type="button"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    height: 50%;
+    margin: 15px 0px;
+}
+
+.data-buku {
+    padding-bottom: 50px;
+    margin: 20px 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.data-pinjam-user {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 3px;
+    margin: -10px 20px;
+}
+
+.data-pinjam-user label {
+    display: flex;
+    justify-content: start;
+}
+
+.data-pinjam-user input {
+    padding: 7px;
+}
+
+.daftar-menu {
+    margin-top: 80px;
+}
+
+.warning {
+    margin: 30px 10px;
+    text-align: start;
+}
+
+.warning p::before {
+    content: "*note : ";
+    color: red;
 }

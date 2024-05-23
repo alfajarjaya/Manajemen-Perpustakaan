@@ -1,14 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en, id" style="scroll-behavior: smooth !important">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="manajemen-perpustakaan" />
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="manajemen-perpustakaan">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta name="keywords" content="manajemen, perpustakaan, kurikulum merdeka">
+
+    <meta name="author" content="kelompok 8, produktif mapel pilihan, kurikulum merdeka">
+
+    <meta property="og:url" content="https://smkn1mojokerto.sch.id/sistem-manajemen-perpustakaan/">
+    <meta property="og:title" content="manajemen-perpustakaan">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id, ID">
+    <meta property="og:description" content="manajemen-perpustakaan">
+
     <title>Hi ! {{ userName }}</title>
-    <link rel="stylesheet" href="./static/css/dashboard_admin.css" type="text/css"/>
-    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard_admin.css') }}" type="text/css"/>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/skanesa.ico') }}" type="image/x-icon">
+    
+    <script type="module" src="{{url_for('static', filename='js/disableMouse.js')}}"></script>
+
 </head>
 
 <body>
@@ -16,7 +34,7 @@
         <section id="main">
             <section>
                 <div class="user">
-                    <img src="./static/img/portofolio pribadi.jpg" alt="user" width="20%" />
+                    <img src="{{ url_for('static', filename='img/portofolio pribadi.jpg') }}" alt="user" width="20%" />
                     <div class="user-text">
                         <h4>Welcome,</h4>
                         <h2>{{ userName }}</h2>
@@ -29,12 +47,12 @@
                 </svg>
             </section>
 
-            <section>
+            <section class="daftar-menu">
                 <div class="menu">
                     <div class="cover">
                         <div class="daftar-buku">
-                            <a href="{{ url_for('daftar_buku') }}">
-                                <img src="./static/img/daftar_buku.png" alt="daftar buku" width="40%" />
+                            <a href="{{ url_for('list_book_admin') }}">
+                                <img src="{{ url_for('static', filename='img/daftar_buku.png') }}" alt="daftar buku" width="40%" />
                                 <h6>Daftar Buku</h6>
                             </a>
                         </div>
@@ -42,8 +60,8 @@
 
                     <div class="cover">
                         <div class="data-buku">
-                            <a href="{{ url_for('pinjamAdmin') }}">
-                                <img src="./static/img/diagram_batang.png" alt="data buku" width="40%" />
+                            <a href="{{ url_for('pinjam_admin') }}">
+                                <img src="{{ url_for('static', filename='img/diagram_batang.png') }}" alt="data buku" width="40%" />
                                 <h6>
                                     Data Peminjaman & <br />
                                     Pengembalian buku
@@ -54,8 +72,8 @@
 
                     <div class="cover">
                         <div class="daftar-buku">
-                            <a href="{{ url_for('static', filename='data.xlsx') }}" download="data.xlsx">
-                                <img src="./static/img/notes.png" alt="daftar buku" width="40%" />
+                            <a href="{{ url_for('dataPengunjung') }}">
+                                <img src="{{ url_for('static', filename='img/notes.png') }}" alt="daftar buku" width="40%" />
                                 <h6>Data Pengunjung</h6>
                             </a>
                         </div>
@@ -63,10 +81,10 @@
 
                     <div class="cover">
                         <div class="data-buku">
-                            <a href="{{ url_for('scanner') }}">
-                                <img src="./static/img/camera.png" alt="data buku" width="40%" />
+                            <a href="{{ url_for('scanner_qrCode') }}">
+                                <img src="{{ url_for('static', filename='img/camera.png') }}" alt="data buku" width="40%" />
                                 <h6>
-                                    Scanner Qr Code
+                                    Scanner Data Pengunjung
                                 </h6>
                             </a>
                         </div>
@@ -81,22 +99,26 @@
                     <ul>
                         <li>
                             <a href="#">
-                                <i data-feather="home"></i>
+                                <img src="{{ url_for('static', filename='img/home.png') }}" alt="home" width="30px" />
                             </a>
                         </li>
                         <li>
-                            <a href="{{ url_for('profilAdmin') }}">
-                                <i data-feather="user"></i>
+                            <a href="{{ url_for('profil') }}">
+                                <img src="{{ url_for('static', filename='img/user.png') }}" alt="user" width="45px" />
                             </a>
                         </li>
+                        <style>
+                            ul {
+                                display: flex;
+                                align-items: center;
+                                margin-top: 15px;
+                            }
+                        </style>
                     </ul>
                 </div>
             </footer>
         </section>
     </main>
-    <script>
-        feather.replace();
-    </script>
 </body>
 
 </html>

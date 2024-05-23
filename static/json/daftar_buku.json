@@ -1,0 +1,3004 @@
+{
+    "listBook": {
+        "buku1": {
+            "id": "BOOK0001",
+            "nama": "Forward For Vocational School Grade Kls XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku2": {
+            "id": "BOOK0002",
+            "nama": "Gambar Teknik Otomotif SMK Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku3": {
+            "id": "BOOK0003",
+            "nama": "Matematika SMK/MAK Kls XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku4": {
+            "id": "BOOK0004",
+            "nama": "Pend. Agama Islam SMK Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku5": {
+            "id": "BOOK0005",
+            "nama": "Chon And The Cat Temple",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku6": {
+            "id": "BOOK0006",
+            "nama": "Skanesa Bercerita",
+            "penerbit": "TEMALITERA, KAB. MOJOKERTO"
+        },
+        "buku7": {
+            "id": "BOOK0007",
+            "nama": "Sehimpun Puisi Untuk Indonesia Merawat Jiwa Yang Hilang",
+            "penerbit": "TEMALITERA, KAB. MOJOKERTO"
+        },
+        "buku8": {
+            "id": "BOOK0008",
+            "nama": "Melipat Waktu Puisi-puisi Dari Kampung Halaman",
+            "penerbit": "TEMALITERA, KAB. MOJOKERTO"
+        },
+        "buku9": {
+            "id": "BOOK0009",
+            "nama": "Produktif Berbahasa Indonesia SMK/MAK XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku10": {
+            "id": "BOOK0010",
+            "nama": "Matematika SMA/MAK Kls XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku11": {
+            "id": "BOOK0011",
+            "nama": "Pend. Pancasila dan Kewarganegaraan SMK Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku12": {
+            "id": "BOOK0012",
+            "nama": "Produktif Berbahasa Indonesia SMK/MAK Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku13": {
+            "id": "BOOK0013",
+            "nama": "Produktif Berbahasa Indonesia SMK/MAK Kls XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku14": {
+            "id": "BOOK0014",
+            "nama": "Matematika SMA/MAK Kls XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku15": {
+            "id": "BOOK0015",
+            "nama": "Fisika Bid. Keahlian Teknologi dan Rekayasa SMK Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku16": {
+            "id": "BOOK0016",
+            "nama": "Fisika Bid. Keahlian Teknologi Informasi Komunikasi Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku17": {
+            "id": "BOOK0017",
+            "nama": "Kimia SMK/MAK Bid. Keahlian TIK Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku18": {
+            "id": "BOOK0018",
+            "nama": "Seni Buadaya SMK/MAK Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku19": {
+            "id": "BOOK0019",
+            "nama": "Pend. Agama Islam dan Budi Pekerti Kls XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku20": {
+            "id": "BOOK0020",
+            "nama": "Pend. Agama Islam dan Budi Pekerti Kls XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku21": {
+            "id": "BOOK0021",
+            "nama": "Pend. Jasmani, Olahraga dan Kesehatan SMK Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku22": {
+            "id": "BOOK0022",
+            "nama": "Pend. Jasmani, Olahraga dan Kesehatan SMK Kls XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku23": {
+            "id": "BOOK0023",
+            "nama": "Forward For Vocational School Grade Kls XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku24": {
+            "id": "BOOK0024",
+            "nama": "Forward For Vocational School Grade Kls XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku25": {
+            "id": "BOOK0025",
+            "nama": "Pend. Pancasila dan Kewarganegaraan SMK Kls XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku26": {
+            "id": "BOOK0026",
+            "nama": "Pend. Pancasila dan Kewarganegaraan SMK Kls XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku27": {
+            "id": "BOOK0027",
+            "nama": "Matematika SMA/MAK Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku28": {
+            "id": "BOOK0028",
+            "nama": "Forward For Vocational School Grade Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku29": {
+            "id": "BOOK0029",
+            "nama": "KImia SMK/MAK Kel. Teknologi dan Rekayasa Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku30": {
+            "id": "BOOK0030",
+            "nama": "Sejarah Indonesia SMK Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku31": {
+            "id": "BOOK0031",
+            "nama": "The Perfect World Of Miwako Sumida",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku32": {
+            "id": "BOOK0032",
+            "nama": "Sadena dan Sandra",
+            "penerbit": "PT. Bumi Semesta Media, JakSel"
+        },
+        "buku33": {
+            "id": "BOOK0033",
+            "nama": "Cantik Itu Luka",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku34": {
+            "id": "BOOK0034",
+            "nama": "Segala-galanya Ambyar",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku35": {
+            "id": "BOOK0035",
+            "nama": "Pangeran Kelas",
+            "penerbit": "Bintang Media, Jabar"
+        },
+        "buku36": {
+            "id": "BOOK0036",
+            "nama": "Cerita dari kranggan",
+            "penerbit": "TEMALITERA , Kab. Mojokerto"
+        },
+        "buku37": {
+            "id": "BOOK0037",
+            "nama": "Suratan Cinta Untuk Lombok Sebait Doa Penguat Jiwa",
+            "penerbit": "CV. Raditeens"
+        },
+        "buku38": {
+            "id": "BOOK0038",
+            "nama": "Sang Perawi Laut Kumpulan Puisi",
+            "penerbit": "TEMALITERA , Kab. Mojokerto"
+        },
+        "buku39": {
+            "id": "BOOK0039",
+            "nama": "Erlangga Fokus AKM ( Asesmen Kompetensi Minimum ) SMK/MAK",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku40": {
+            "id": "BOOK0040",
+            "nama": "Pend. Pancasila dan Kewarganegaraan SMK Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku41": {
+            "id": "BOOK0041",
+            "nama": "Pekerjaan Dasar Teknik Otomotif Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku42": {
+            "id": "BOOK0042",
+            "nama": "Desain Grafis Percetakaan Kls XI",
+            "penerbit": "CV.Mediatama"
+        },
+        "buku43": {
+            "id": "BOOK0043",
+            "nama": "Pend. Pancasila dan Kewarganegaraan SMK Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku44": {
+            "id": "BOOK0044",
+            "nama": "Standar Gambar Perencanaan Denah Lantai ( Floor Plan ) Pada Rumah Tinggal",
+            "penerbit": "Media Nusa Creative, Malang"
+        },
+        "buku45": {
+            "id": "BOOK0045",
+            "nama": "Animasi 2D dan 3D Kls XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku46": {
+            "id": "BOOK0046",
+            "nama": "Administrasi Infrastruktur Jaringan SMK/MAK XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku47": {
+            "id": "BOOK0047",
+            "nama": "Administrasi Infrastruktur Jaringan SMK/MAK XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku48": {
+            "id": "BOOK0048",
+            "nama": "Teknik Pengolahan Audio Video Kls XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku49": {
+            "id": "BOOK0049",
+            "nama": "Standar Gambar Perencanaan Denah Lantai ( Floor Plan ) Pada Rumah Tinggal",
+            "penerbit": "Media Nusa Creative, Malang"
+        },
+        "buku50": {
+            "id": "BOOK0050",
+            "nama": "Teknologi Jaringan Berbasis Luas ( WAN ) Kls XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku51": {
+            "id": "BOOK0051",
+            "nama": "Administrasi Sistem Jaringan KLS XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku52": {
+            "id": "BOOK0052",
+            "nama": "Teknologi Layanan Jaringan Kls XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku53": {
+            "id": "BOOK0053",
+            "nama": "Produk Kreatif & Kewirausahaan KLS X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku54": {
+            "id": "BOOK0054",
+            "nama": "Teknologi dan Layanan Jaringan KLS XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku55": {
+            "id": "BOOK0055",
+            "nama": "Administrasi Sistem Jaringan KLS XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku56": {
+            "id": "BOOK0056",
+            "nama": "Administrasi Sistem Jaringan KLS XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku57": {
+            "id": "BOOK0057",
+            "nama": "Teknologi Layanan Jaringan Kls XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku58": {
+            "id": "BOOK0058",
+            "nama": "Produk Kreatif & Kewirausahaan KLS X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku59": {
+            "id": "BOOK0059",
+            "nama": "Sejarah SMK/MAK KLS X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku60": {
+            "id": "BOOK0060",
+            "nama": "Proyek IPAS Rump Teknologi SMK Kls X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku61": {
+            "id": "BOOK0061",
+            "nama": "Splash SMK/SMA Grade X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku62": {
+            "id": "BOOK0062",
+            "nama": "Informatika Rumpun Bisnis & Manajemen SMK X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku63": {
+            "id": "BOOK0063",
+            "nama": "Informatika Rumpun Teknologi SMK X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku64": {
+            "id": "BOOK0064",
+            "nama": "Splash SMK/SMA Grade X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku65": {
+            "id": "BOOK0065",
+            "nama": "Informatika Rumpun Bisnis  & manajemen SMK X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku66": {
+            "id": "BOOK0066",
+            "nama": "B. Indonesia X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku67": {
+            "id": "BOOK0067",
+            "nama": "Splash SMK/SMA Grade X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku68": {
+            "id": "BOOK0068",
+            "nama": "Ensiklopedia IPTEK, Ensiklopedia Sains Untuk Pelajar dan Umum ( Bumi ruang dan waktu )",
+            "penerbit": "Lentera Abadi, Jakarta"
+        },
+        "buku69": {
+            "id": "BOOK0069",
+            "nama": "Ensiklopedia IPTEK Ensiklopedia Sains Untuk Pelajar dan Umum (Makhluk hidup manusia )",
+            "penerbit": "Lentera Abadi, Jakarta"
+        },
+        "buku70": {
+            "id": "BOOK0070",
+            "nama": "Ensiklopedia IPTEK Ensiklopedia Sains Untuk Pelajar dan Umum (Kimia dan Unsur Bahan dan teknologi )",
+            "penerbit": "Lentera Abadi, Jakarta"
+        },
+        "buku71": {
+            "id": "BOOK0071",
+            "nama": "Ensiklopedia IPTEK Ensiklopedia Sains Untuk Pelajar dan Umum (cahaya dan energi gaya dan gerak)",
+            "penerbit": "Lentera Abadi, Jakarta"
+        },
+        "buku72": {
+            "id": "BOOK0072",
+            "nama": "Ensiklopedia IPTEK Ensiklopedia Sains Untuk Pelajar dan Umum (listrik dan elektronika konservasi dan lingkungan)",
+            "penerbit": "Lentera Abadi, Jakarta"
+        },
+        "buku73": {
+            "id": "BOOK0073",
+            "nama": "Ensiklopedia IPTEK, Ensiklopedia Sains Untuk Pelajar dan Umum (Muatan lokal dan kronologi IPTEK)",
+            "penerbit": "Lentera Abadi, Jakarta"
+        },
+        "buku74": {
+            "id": "BOOK0074",
+            "nama": "Ensiklopedia IPTEK, Ensiklopedia Sains Untuk Pelajar dan Umum (Muatan lokal dan kronologi IPTEK)",
+            "penerbit": "Lentera Abadi, Jakarta"
+        },
+        "buku75": {
+            "id": "BOOK0075",
+            "nama": "Ensiklopedia IPTEK, Ensiklopedia Sains Untuk Pelajar dan Umum (Muatan lokal dan kronologi IPTEK)",
+            "penerbit": "Lentera Abadi, Jakarta"
+        },
+        "buku76": {
+            "id": "BOOK0076",
+            "nama": "Fisika Teori dan Aplikasi di Dunia Modern Ensiklopedia Tematik Gerak",
+            "penerbit": "Lentera Abadi, Jakarta"
+        },
+        "buku77": {
+            "id": "BOOK0077",
+            "nama": "Fisika Teori dan Aplikasi di Dunia Modern Ensiklopedia Tematik Atom",
+            "penerbit": "Lentera Abadi, Jakarta"
+        },
+        "buku78": {
+            "id": "BOOK0078",
+            "nama": "Fisika Teori dan Aplikasi di Dunia Modern Ensiklopedia Tematik Gaya",
+            "penerbit": "Lentera Abadi, Jakarta"
+        },
+        "buku79": {
+            "id": "BOOK0079",
+            "nama": "Fisika Teori dan Aplikasi di Dunia Modern Ensiklopedia Tematik Listrik",
+            "penerbit": "Lentera Abadi, Jakarta"
+        },
+        "buku80": {
+            "id": "BOOK0080",
+            "nama": "Pendidikan Pancasila dan Kewarganegaraan SMK /SMK kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku81": {
+            "id": "BOOK0081",
+            "nama": "Cerdas Cergas Berbahasa Bersastra Indonesia Untuk SMA / SMK kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku82": {
+            "id": "BOOK0082",
+            "nama": "Pendidikan Agama Islam dan Budi Pekerti untuk SMA / SMK  kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku83": {
+            "id": "BOOK0083",
+            "nama": "Matematika untuk SMA /  SMK kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku84": {
+            "id": "BOOK0084",
+            "nama": "Sejarah SMK/MAK KLS X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku85": {
+            "id": "BOOK0085",
+            "nama": "Sejarah SMK/MAK KLS XI Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku86": {
+            "id": "BOOK0086",
+            "nama": "Proyek IPAS Rump Teknologi SMK Kls X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku87": {
+            "id": "BOOK0087",
+            "nama": "Splash SMK/SMA Grade XI Rumpun Teknologi Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku88": {
+            "id": "BOOK0088",
+            "nama": "Produktif B. Indonesia SMK/MAK Kls X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku89": {
+            "id": "BOOK0089",
+            "nama": "Pendidikan Agama Kristen dan Budi Pekerti SMA/SMK Kelas X",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku90": {
+            "id": "BOOK0090",
+            "nama": "Pendidikan Agama Katolik dan Budi Pekerti SMA/SMK Kelas X",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku91": {
+            "id": "BOOK0091",
+            "nama": "Sejarah SMK/MAK KLS XI Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku92": {
+            "id": "BOOK0092",
+            "nama": "Infotmatika Rumpun Teknologi SMK X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku93": {
+            "id": "BOOK0093",
+            "nama": "Buku Panduan Guru Pendidikan Pancasila dan Kewarganegaraan SMK /SMK kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku94": {
+            "id": "BOOK0094",
+            "nama": "Buku Panduan Guru Matematika untuk SMA /  SMK kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku95": {
+            "id": "BOOK0095",
+            "nama": "Buku Panduan Guru Cerdas Cergas Berbahasa dan Bersastra Indonesia Untuk SMA/SMK Kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku96": {
+            "id": "BOOK0096",
+            "nama": "Buku Panduan Guru Pendidikan Agama Islam dan Budi Pekerti untuk SMA / SMK  kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku97": {
+            "id": "BOOK0097",
+            "nama": "Strategi Nasional Pencegahan dan Pemberantasan Tindak Pidana Korupsi di Indonesia",
+            "penerbit": ""
+        },
+        "buku98": {
+            "id": "BOOK0098",
+            "nama": "Buku Panduan Guru Pendidikan Agama Kristen dan Budi Pekerti untuk SMA / SMK  kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku99": {
+            "id": "BOOK0099",
+            "nama": "Buku Panduan Guru Pendidikan Agama Katolik dan Budi Pekerti untuk SMA / SMK  kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku100": {
+            "id": "BOOK0100",
+            "nama": "Splash SMK/SMA Grade XI rump. Teknologi Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku101": {
+            "id": "BOOK0101",
+            "nama": "Informatika Rumpun Bisnis & Manajemen SMK X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku102": {
+            "id": "BOOK0102",
+            "nama": "Erlangga X-Press AKM Numerisasi Untuk SMK/MAK",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku103": {
+            "id": "BOOK0103",
+            "nama": "Sejarah SMK/MAK KLS XI Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku104": {
+            "id": "BOOK0104",
+            "nama": "Splash SMK/SMA Grade XI Rumpun Bisnis dan Manajemen, Pariwisata, serta seni dan Ekonomi kreatif Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku105": {
+            "id": "BOOK0105",
+            "nama": "Sejarah SMK/MAK KLS X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku106": {
+            "id": "BOOK0106",
+            "nama": "Pendidikan Agama Islam dan Budi Pekerti untuk SMA / SMK  kls 1 Kurikulum Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku107": {
+            "id": "BOOK0107",
+            "nama": "Proyek IPAS Rump Bisnis dan manajemen, Pariwisata, serta Seni dan Ekonomi Kreatif SMK Kls X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku108": {
+            "id": "BOOK0108",
+            "nama": "Proyek IPAS Rump Teknologi SMK Kls X Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku109": {
+            "id": "BOOK0109",
+            "nama": "Splash SMK/SMA Grade XI Rumpun Teknologi Kur. Merdeka",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku110": {
+            "id": "BOOK0110",
+            "nama": "Love Theft",
+            "penerbit": "Inari, Depok"
+        },
+        "buku111": {
+            "id": "BOOK0111",
+            "nama": "Dear Your Again",
+            "penerbit": "Gagas Media, Jaksel"
+        },
+        "buku112": {
+            "id": "BOOK0112",
+            "nama": "Rain And Flowers",
+            "penerbit": "Gagas Media, Jaksel"
+        },
+        "buku113": {
+            "id": "BOOK0113",
+            "nama": "Angel in the rain",
+            "penerbit": "Gagas Media, Jaksel"
+        },
+        "buku114": {
+            "id": "BOOK0114",
+            "nama": "Komsi Komsa",
+            "penerbit": "PT. Falcon, Jakarta"
+        },
+        "buku115": {
+            "id": "BOOK0115",
+            "nama": "Just You and Me",
+            "penerbit": "PT. Storial Indonesia Jaya, Jaksel"
+        },
+        "buku116": {
+            "id": "BOOK0116",
+            "nama": "Guru Aini",
+            "penerbit": "PT. Bentang Pustaka, Yogyakarta"
+        },
+        "buku117": {
+            "id": "BOOK0117",
+            "nama": "The Potrait Of A Lady",
+            "penerbit": "Qanita, Bandung"
+        },
+        "buku118": {
+            "id": "BOOK0118",
+            "nama": "Cinta dan Senja",
+            "penerbit": "Pastel Books, Bandung"
+        },
+        "buku119": {
+            "id": "BOOK0119",
+            "nama": "A Thing Called Us",
+            "penerbit": "Haru Media"
+        },
+        "buku120": {
+            "id": "BOOK0120",
+            "nama": "Muhammad : Para Pengejar Tuhan",
+            "penerbit": "PT. Bentang Pustaka, Yogyakarta"
+        },
+        "buku121": {
+            "id": "BOOK0121",
+            "nama": "Muhammad : Lelaki Penggenggam Hujan",
+            "penerbit": "PT. Bentang Pustaka, Yogyakarta"
+        },
+        "buku122": {
+            "id": "BOOK0122",
+            "nama": "Rahasia Meede Misteri Harta Karun VOC",
+            "penerbit": "PT. Mizan Publika, Jaksel"
+        },
+        "buku123": {
+            "id": "BOOK0123",
+            "nama": "Sejarah Pemikiran Ekonomi Sang Maestro Teori-teori Ekonomi Modern",
+            "penerbit": "Divisi Prenada, Jakarta Timur"
+        },
+        "buku124": {
+            "id": "BOOK0124",
+            "nama": "Ayah dan Sirkus Pohon",
+            "penerbit": "PT. Bentang Pustaka, Yogyakarta"
+        },
+        "buku125": {
+            "id": "BOOK0125",
+            "nama": "Dimensi Ketiga",
+            "penerbit": "Histeria, Yogyakarta"
+        },
+        "buku126": {
+            "id": "BOOK0126",
+            "nama": "Dijodohin",
+            "penerbit": "Black Swan Books, jaktim"
+        },
+        "buku127": {
+            "id": "BOOK0127",
+            "nama": "Persimpangan",
+            "penerbit": "Gagas Medai, Jaksel"
+        },
+        "buku128": {
+            "id": "BOOK0128",
+            "nama": "Ya'juj dan Ma'juj",
+            "penerbit": "PT. Pustaka Alvabet, Tangerang Selatan"
+        },
+        "buku129": {
+            "id": "BOOK0129",
+            "nama": "The Open Door",
+            "penerbit": "Diandra Kreatif, Yogyakarta"
+        },
+        "buku130": {
+            "id": "BOOK0130",
+            "nama": "Buku Besar Peminum Kopi",
+            "penerbit": "PT. Bentang Pustaka, Yogyakarta"
+        },
+        "buku131": {
+            "id": "BOOK0131",
+            "nama": "Raden Dewi Sartika",
+            "penerbit": "Mizan Media Utama, Bandung"
+        },
+        "buku132": {
+            "id": "BOOK0132",
+            "nama": "Putus Dicinta Sabar Pun Tiba",
+            "penerbit": "Salam Books, Bandung"
+        },
+        "buku133": {
+            "id": "BOOK0133",
+            "nama": "Pesan Dari Bintang",
+            "penerbit": "Literati, Tangerang Selatan"
+        },
+        "buku134": {
+            "id": "BOOK0134",
+            "nama": "Putri Hujan dan Kesatria Malam",
+            "penerbit": "Literati, Tangerang Selatan"
+        },
+        "buku135": {
+            "id": "BOOK0135",
+            "nama": "Pal In Love",
+            "penerbit": "PT. Bentang Pustaka,Yogyakarta"
+        },
+        "buku136": {
+            "id": "BOOK0136",
+            "nama": "Chicken Soup For The Soul",
+            "penerbit": ""
+        },
+        "buku137": {
+            "id": "BOOK0137",
+            "nama": "Bumi Cinta",
+            "penerbit": "Republika, Jaksel"
+        },
+        "buku138": {
+            "id": "BOOK0138",
+            "nama": "Bukan Aku Yang Dia Inginkan",
+            "penerbit": "Cloud Books, Jawa Barat"
+        },
+        "buku139": {
+            "id": "BOOK0139",
+            "nama": "Matahari Minor",
+            "penerbit": "PT. Sabak Grip Nusantara, Jawa Barat"
+        },
+        "buku140": {
+            "id": "BOOK0140",
+            "nama": "Diamlah Atau Berkata Baik",
+            "penerbit": "Salam Books, Bandung"
+        },
+        "buku141": {
+            "id": "BOOK0141",
+            "nama": "Laut Bercerita",
+            "penerbit": "Kepustakaan Populer Gramedia, jakarta"
+        },
+        "buku142": {
+            "id": "BOOK0142",
+            "nama": "Orang - orang Biasa",
+            "penerbit": "PT. Bentang Pustaka, Yogyakarta"
+        },
+        "buku143": {
+            "id": "BOOK0143",
+            "nama": "Broken Heart",
+            "penerbit": "Evolif Media, jawa Tengah"
+        },
+        "buku144": {
+            "id": "BOOK0144",
+            "nama": "Stay The Same",
+            "penerbit": "PT. Gramedia, Jakarta"
+        },
+        "buku145": {
+            "id": "BOOK0145",
+            "nama": "Kilometer",
+            "penerbit": "By Pass, Bogor"
+        },
+        "buku146": {
+            "id": "BOOK0146",
+            "nama": "Muhammad Sang Pewaris",
+            "penerbit": "PT. Bentang Pustaka, Yogyakarta"
+        },
+        "buku147": {
+            "id": "BOOK0147",
+            "nama": "Deadly Fear",
+            "penerbit": "Bukung, Jaksel"
+        },
+        "buku148": {
+            "id": "BOOK0148",
+            "nama": "Santri Kalong",
+            "penerbit": "Cupid, yogyakarta"
+        },
+        "buku149": {
+            "id": "BOOK0149",
+            "nama": "Stigma",
+            "penerbit": "Rain Books, Jabar"
+        },
+        "buku150": {
+            "id": "BOOK0150",
+            "nama": "Pelajaran Mengarang",
+            "penerbit": "PT. Kompas Media Nusantara"
+        },
+        "buku151": {
+            "id": "BOOK0151",
+            "nama": "Arjuna dan Kirana",
+            "penerbit": "Pastel Books, Bandung"
+        },
+        "buku152": {
+            "id": "BOOK0152",
+            "nama": "Dari Tepian Danau Tempe",
+            "penerbit": "Merdeka Books, Jakarta Pusat"
+        },
+        "buku153": {
+            "id": "BOOK0153",
+            "nama": "Psikologi Sastra, Karya Sastr, Metode, Teori, Contoh Kasus",
+            "penerbit": "Yayasan Pustaka Obor Indonesia"
+        },
+        "buku154": {
+            "id": "BOOK0154",
+            "nama": "Guru-guruku Ngaji Orang-orangnya Ikhlas",
+            "penerbit": ""
+        },
+        "buku155": {
+            "id": "BOOK0155",
+            "nama": "Internet Of Things ( IOT )",
+            "penerbit": "Penerbit Andi Offset, Yogyakarta"
+        },
+        "buku156": {
+            "id": "BOOK0156",
+            "nama": "Nasionalisme",
+            "penerbit": "Ecosystem Publishing, Surabaya"
+        },
+        "buku157": {
+            "id": "BOOK0157",
+            "nama": "Kata-kata Sukarno Untuk Indonesia",
+            "penerbit": "Ecosystem Publishing, Surabaya"
+        },
+        "buku158": {
+            "id": "BOOK0158",
+            "nama": "Pendidikan Pancasila",
+            "penerbit": "Paradigma Yogyakarta"
+        },
+        "buku159": {
+            "id": "BOOK0159",
+            "nama": "Pokok-pokok Hukum Perdata",
+            "penerbit": "PT. Intermasa, Jakarta"
+        },
+        "buku160": {
+            "id": "BOOK0160",
+            "nama": "Kumpulan Sejarah Lengkap Pahlawan Indonesia",
+            "penerbit": "Serba Jaya, Surabaya"
+        },
+        "buku161": {
+            "id": "BOOK0161",
+            "nama": "Cerdas Cergas Berbahasa Bersastra Indonesia Untuk SMA / SMK kls XI Kurikulum Merdeka",
+            "penerbit": "Pusat Perbukuan Badan Standar, Kurikulum & Asesmen Pendidikan, Jakarta Selatan"
+        },
+        "buku162": {
+            "id": "BOOK0162",
+            "nama": "Bahasa Inggris English For Change SMA/MA Kls XI Kurikulum Merdeka",
+            "penerbit": "Kementrian Pendidikan dan Kebudayaan"
+        },
+        "buku163": {
+            "id": "BOOK0163",
+            "nama": "Pendidikan Agama Islam dan Budi Pekerti untuk SMA / SMK  kls XI Kurikulum Merdeka",
+            "penerbit": "Pusat Perbukuan Kementrian Pendidikan & Kebudayaan, Jakarta Selatan"
+        },
+        "buku164": {
+            "id": "BOOK0164",
+            "nama": "Pendidikan Pancasila dan Kewarganegaraan SMK /SMK kls XI Kurikulum Merdeka",
+            "penerbit": "Pusat Perbukuan Kementrian Pendidikan & Kebudayaan, Jakarta Selatan"
+        },
+        "buku165": {
+            "id": "BOOK0165",
+            "nama": "Matematika SMA /  SMK Kls XI Kurikulum Merdeka",
+            "penerbit": "Pusat Perbukuan Kementrian Pendidikan & Kebudayaan, Jakarta Selatan"
+        },
+        "buku166": {
+            "id": "BOOK0166",
+            "nama": "Nihongo Rakuraku Bahasa Jepang untuk SMK",
+            "penerbit": "Japan Foundation"
+        },
+        "buku167": {
+            "id": "BOOK0167",
+            "nama": "Penddikan Agama Kristen dan Budi Pekerti Untuk MSA,SMK kls XI Kurikulum Merdeka",
+            "penerbit": "Pusat Perbukuan Kementrian Pendidikan & Kebudayaan, Jakarta Selatan"
+        },
+        "buku168": {
+            "id": "BOOK0168",
+            "nama": "Buku Panduan Guru Cerdas Cergas Berbahasa dan Bersastra Indonesia Untuk SMA/SMK Kls XI Kurikulum Merdeka",
+            "penerbit": "Pusat Perbukuan Kementrian Pendidikan & Kebudayaan, Jakarta Selatan"
+        },
+        "buku169": {
+            "id": "BOOK0169",
+            "nama": "Buku Panduan Guru Pendidikan Pancasila dan Kewarganegaraan SMK /SMK kls XI Kurikulum Merdeka",
+            "penerbit": "Pusat Perbukuan Kementrian Pendidikan & Kebudayaan, Jakarta Selatan"
+        },
+        "buku170": {
+            "id": "BOOK0170",
+            "nama": "Buku Panduan Guru Bahasa Inggris Workk in Progress Untuk SMA, SMK, MA Kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Perbukuan Kementrian Pendidikan & Kebudayaan, Jakarta Selatan"
+        },
+        "buku171": {
+            "id": "BOOK0171",
+            "nama": "Buku Panduan Guru Informatika SMA Kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Perbukuan Kementrian Pendidikan & Kebudayaan, Jakarta Selatan"
+        },
+        "buku172": {
+            "id": "BOOK0172",
+            "nama": "Buku Panduan Guru Seni Teater SMA/SMK Kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Perbukuan Kementrian Pendidikan & Kebudayaan, Jakarta Selatan"
+        },
+        "buku173": {
+            "id": "BOOK0173",
+            "nama": "Buku Panduan Guru Seni Rupa SMA/SMK Kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku174": {
+            "id": "BOOK0174",
+            "nama": "Buku Panduan Guru Seni Tari SMA/SMK Kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku175": {
+            "id": "BOOK0175",
+            "nama": "Buku Panduan Guru Seni Musik SMA/SMK Kls X Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku176": {
+            "id": "BOOK0176",
+            "nama": "Buku Panduan Guru Pendidikan Jasmani, Olahraga dan Kesehatan. SMA, SMK Kls X, Kurikulum Merdeka",
+            "penerbit": "Pusat Kurikulum dan Perbukuan, Jakarta Pusat"
+        },
+        "buku177": {
+            "id": "BOOK0177",
+            "nama": "Mengenal Renang",
+            "penerbit": "Quadra"
+        },
+        "buku178": {
+            "id": "BOOK0178",
+            "nama": "Syekh Siti Jenar Makna Kematian",
+            "penerbit": "PT. Serambi Ilmu Semesta, Jakarta"
+        },
+        "buku179": {
+            "id": "BOOK0179",
+            "nama": "Kitab Pentigraf Edisi Khusus Seperjuta Milimeter Dari Korona",
+            "penerbit": "Tankali, Jatim"
+        },
+        "buku180": {
+            "id": "BOOK0180",
+            "nama": "Pulau Pemujaan Setan",
+            "penerbit": "Grasindo"
+        },
+        "buku181": {
+            "id": "BOOK0181",
+            "nama": "Sang Pelopor",
+            "penerbit": "Diva Press, Jogjakarta"
+        },
+        "buku182": {
+            "id": "BOOK0182",
+            "nama": "Jejak-jejak Sebuah Mimpi",
+            "penerbit": "Papyrus"
+        },
+        "buku183": {
+            "id": "BOOK0183",
+            "nama": "Cerita Dari Gul",
+            "penerbit": "Kepustakaan Populer Gramedia, Jakarta"
+        },
+        "buku184": {
+            "id": "BOOK0184",
+            "nama": "Perlawanan, Pemberontakan, Kematian",
+            "penerbit": "Narasi, Yogyakarta"
+        },
+        "buku185": {
+            "id": "BOOK0185",
+            "nama": "Puisi Tak Pernah Pergi",
+            "penerbit": "PT. Kompas Media Nusantara, Jakarta"
+        },
+        "buku186": {
+            "id": "BOOK0186",
+            "nama": "Belajar Renang",
+            "penerbit": "Aneka Ilmu"
+        },
+        "buku187": {
+            "id": "BOOK0187",
+            "nama": "Fotografia : Kiat Menjadi Fotografer From Zero To Zero",
+            "penerbit": "PT. Gramedai Pustaka Utama, Jakarta"
+        },
+        "buku188": {
+            "id": "BOOK0188",
+            "nama": "101 Trik Memilih Peralatan DSLR",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku189": {
+            "id": "BOOK0189",
+            "nama": "Lenses For Digital SLRS",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku190": {
+            "id": "BOOK0190",
+            "nama": "Basic Photography : Perfect Shot Trik Praktis Membuat Foto Anda Jadi Lebih Indah",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku191": {
+            "id": "BOOK0191",
+            "nama": "Guru Limited Edition : Jejak-jejak Inspiratif Menjadi Guru Kelas Dunia",
+            "penerbit": "Pustaka Literasi Indonesia, Pontianak"
+        },
+        "buku192": {
+            "id": "BOOK0192",
+            "nama": "Kumpulan Metode Pembelajaran Kreatif Inovatif dan Menyenangkan",
+            "penerbit": "Guepedia"
+        },
+        "buku193": {
+            "id": "BOOK0193",
+            "nama": "Buku Pintar Pelajaran SMA IPA 6 in 1",
+            "penerbit": "PT. WahyuMedia, Jakarta Selatan"
+        },
+        "buku194": {
+            "id": "BOOK0194",
+            "nama": "Microsoft Office Word Design Explorer",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku195": {
+            "id": "BOOK0195",
+            "nama": "Seri Peternakan Modern : Kambing Perah",
+            "penerbit": "Arcitra, Yogyakarta"
+        },
+        "buku196": {
+            "id": "BOOK0196",
+            "nama": "Teknik Pengolahan Tepung Kalsium Dari Tulang Ikan Nila",
+            "penerbit": "Penebar Swadaya, Jakarta Timur"
+        },
+        "buku197": {
+            "id": "BOOK0197",
+            "nama": "Pengolahan:Kolagen Dari Kulit Ikan Nila",
+            "penerbit": "Penebar Swadaya, Jakarta Timur"
+        },
+        "buku198": {
+            "id": "BOOK0198",
+            "nama": "Sehat dan Bugar dengan Terapi Jus Buah dan Sayur",
+            "penerbit": "Dua Media, Surabaya"
+        },
+        "buku199": {
+            "id": "BOOK0199",
+            "nama": "Obat Herbal Luar Biasa",
+            "penerbit": "CV. Pustaka Agung Harapan, Surabaya"
+        },
+        "buku200": {
+            "id": "BOOK0200",
+            "nama": "Pangan Sehat Kaya Manfaat +25 Resep Hidangan Lezat Olahan Rumput Laut",
+            "penerbit": "Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku201": {
+            "id": "BOOK0201",
+            "nama": "Resep kue favorit ala cafe : All about kue stroberi",
+            "penerbit": "PT Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku202": {
+            "id": "BOOK0202",
+            "nama": "Resep Kue Favorit Ala Cafe : All About Mangga",
+            "penerbit": "PT Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku203": {
+            "id": "BOOK0203",
+            "nama": "Resep Kue Favorit Ala Cafe All About Durian",
+            "penerbit": "PT Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku204": {
+            "id": "BOOK0204",
+            "nama": "Olahan Wortel Untuk Bayi dan Balita",
+            "penerbit": "PT Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku205": {
+            "id": "BOOK0205",
+            "nama": "Membuat Sendiri 100 macam Olahan Buah-buahan",
+            "penerbit": "M2S, Bandung"
+        },
+        "buku206": {
+            "id": "BOOK0206",
+            "nama": "Kreasi Boneka Mungil Dari Clay",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku207": {
+            "id": "BOOK0207",
+            "nama": "Kreasi Cantik Dari Styrofoam Bungkus Buah",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku208": {
+            "id": "BOOK0208",
+            "nama": "Penilaian Status Gizi",
+            "penerbit": "Buku Kedokteran EGC"
+        },
+        "buku209": {
+            "id": "BOOK0209",
+            "nama": "Pend. Agama Islam dan Budi Pekerti Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku210": {
+            "id": "BOOK0210",
+            "nama": "Dasar Desain Grafis C2 Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku211": {
+            "id": "BOOK0211",
+            "nama": "Komputer dan Jaringan Dasar Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku212": {
+            "id": "BOOK0212",
+            "nama": "Pemrograman Dasar Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku213": {
+            "id": "BOOK0213",
+            "nama": "Sistem Komputer Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku214": {
+            "id": "BOOK0214",
+            "nama": "Pekerjaan Dasar Teknik Otomotif C2 Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku215": {
+            "id": "BOOK0215",
+            "nama": "Administrasi Sistem Jaringan C3 Kls XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku216": {
+            "id": "BOOK0216",
+            "nama": "Erlangga X - Press UN 2019 B. Indonesia",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku217": {
+            "id": "BOOK0217",
+            "nama": "Erlangga X - Press UN 2019 B. Inggris",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku218": {
+            "id": "BOOK0218",
+            "nama": "Erlangga X - Press UN 2019 Matematika Teknologi",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku219": {
+            "id": "BOOK0219",
+            "nama": "Pendidikan Agama Islam Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku220": {
+            "id": "BOOK0220",
+            "nama": "Forward An English XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku221": {
+            "id": "BOOK0221",
+            "nama": "B. Indonesia SMK/SMA Kls XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku222": {
+            "id": "BOOK0222",
+            "nama": "B. Indonesia SMK/SMA Kls XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku223": {
+            "id": "BOOK0223",
+            "nama": "Matematika SMK/SMA Kls XI",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku224": {
+            "id": "BOOK0224",
+            "nama": "Matematika SMK/SMA Kls XII",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku225": {
+            "id": "BOOK0225",
+            "nama": "Sistem Komputer Bid. TIK SMK / MAK Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku226": {
+            "id": "BOOK0226",
+            "nama": "Pemrograman Dasar SMK Bid. Tekominfo Kls X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku227": {
+            "id": "BOOK0227",
+            "nama": "Budidaya Umbi-umbian Padat Nutrisi",
+            "penerbit": "Pustaka Baru Press, Yogyakarta"
+        },
+        "buku228": {
+            "id": "BOOK0228",
+            "nama": "Kreasi Kertas Bekas",
+            "penerbit": "Arcita, Solo"
+        },
+        "buku229": {
+            "id": "BOOK0229",
+            "nama": "Rindu Soeharto Dipuja, Dicerca dan Kini Dirindu",
+            "penerbit": "Penerbit Bangkit, Yogyakarta"
+        },
+        "buku230": {
+            "id": "BOOK0230",
+            "nama": "Wapres : Pendamping atau Pesaing ?",
+            "penerbit": "BIP Kelompok Gramedia"
+        },
+        "buku231": {
+            "id": "BOOK0231",
+            "nama": "Hipertensi",
+            "penerbit": "PT. Bhuana Ilmu Populer, Jakarta"
+        },
+        "buku232": {
+            "id": "BOOK0232",
+            "nama": "Bank Dunia, IMF dan Hak Asasi Manusia",
+            "penerbit": "Elsam, Jakarta"
+        },
+        "buku233": {
+            "id": "BOOK0233",
+            "nama": "Personality Plus For Couples ( Kepribadian Plus Untuk Pasangan )",
+            "penerbit": "Binarupa Aksara, Jakarta"
+        },
+        "buku234": {
+            "id": "BOOK0234",
+            "nama": "Dari Lembah Cita-cita",
+            "penerbit": "Gema Insani, Depok"
+        },
+        "buku235": {
+            "id": "BOOK0235",
+            "nama": "Meraih Pekerjaan yang Diidamkan",
+            "penerbit": "Indah, Surabaya"
+        },
+        "buku236": {
+            "id": "BOOK0236",
+            "nama": "Siti Jenar Cikal Bakal Faham Kejawen",
+            "penerbit": "CV. Pustaka Agung Harapan, Surabaya"
+        },
+        "buku237": {
+            "id": "BOOK0237",
+            "nama": "Homestay 101. Panduan Cerdas Ikut Homestay Seru Bermutu",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku238": {
+            "id": "BOOK0238",
+            "nama": "Autocad 3 Demensi",
+            "penerbit": "Dinastindo"
+        },
+        "buku239": {
+            "id": "BOOK0239",
+            "nama": "Windows 10 Under Cover Langkah Mudah Menguasai Windows 10",
+            "penerbit": "Maxicom, Palembang"
+        },
+        "buku240": {
+            "id": "BOOK0240",
+            "nama": "1001 Resep Masakan Lengkap",
+            "penerbit": "Apollo, Surabaya"
+        },
+        "buku241": {
+            "id": "BOOK0241",
+            "nama": "Resep-resep Kue dan Roti Pualing Mudah",
+            "penerbit": "Visi 7"
+        },
+        "buku242": {
+            "id": "BOOK0242",
+            "nama": "Kerajinan Daun Pandaan",
+            "penerbit": "Arcita, Solo"
+        },
+        "buku243": {
+            "id": "BOOK0243",
+            "nama": "Lilitan Cantik Dari Kawat Kabel",
+            "penerbit": "Tiara Aksa, Surabaya"
+        },
+        "buku244": {
+            "id": "BOOK0244",
+            "nama": "Olahan Wortel Untuk Bayi dan Balita",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku245": {
+            "id": "BOOK0245",
+            "nama": "Cooking With Style 3",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku246": {
+            "id": "BOOK0246",
+            "nama": "Olahan Dendeng Jadi Hidangan Lezat Dalam Waktu 30 Menit",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku247": {
+            "id": "BOOK0247",
+            "nama": "20 Perilaku Durhaka Orang Tua Terhadap Anak",
+            "penerbit": "Ma'alimul Usrah Media, Yogyakarta"
+        },
+        "buku248": {
+            "id": "BOOK0248",
+            "nama": "Harta Termahal Di Sisimu",
+            "penerbit": "Pustaka Ausath, Klaten"
+        },
+        "buku249": {
+            "id": "BOOK0249",
+            "nama": "Rambu - rambu Aqidah",
+            "penerbit": "Media Idaman Press, Surabaya"
+        },
+        "buku250": {
+            "id": "BOOK0250",
+            "nama": "20 Kerangka Pokok Pendidikan Islami",
+            "penerbit": "Ma'alimul Usrah Media, Yogyakarta"
+        },
+        "buku251": {
+            "id": "BOOK0251",
+            "nama": "45 Manipulasi Foto Profesional Photoshop CS",
+            "penerbit": "Maxikom, Palembang"
+        },
+        "buku252": {
+            "id": "BOOK0252",
+            "nama": "Panduan Berinternet Untuk Orang Awam",
+            "penerbit": "Maxikom, Palembang"
+        },
+        "buku253": {
+            "id": "BOOK0253",
+            "nama": "Optimalisasi Windows Untuk Orang Awam",
+            "penerbit": "Maxikom, Palembang"
+        },
+        "buku254": {
+            "id": "BOOK0254",
+            "nama": "Andai Pak Harto Nyapres Kupilih?",
+            "penerbit": "Saufa"
+        },
+        "buku255": {
+            "id": "BOOK0255",
+            "nama": "Falsafah Jawa Soeharto & Jokowi",
+            "penerbit": "Araska, Yogyakarta"
+        },
+        "buku256": {
+            "id": "BOOK0256",
+            "nama": "Hidangan Seafood",
+            "penerbit": "Harmoni"
+        },
+        "buku257": {
+            "id": "BOOK0257",
+            "nama": "Olahan Cokelat Spesial",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku258": {
+            "id": "BOOK0258",
+            "nama": "40 Kreasi Menyulap Stoples Plastik Menjadi Unik Dengan Kain Flanel",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku259": {
+            "id": "BOOK0259",
+            "nama": "Keutamaan Kaya Bersyukur dan Miskin Bersabar",
+            "penerbit": "Maktabah Al-Hanif, Yogyakarta"
+        },
+        "buku260": {
+            "id": "BOOK0260",
+            "nama": "Khasiat dan Cara Olah Sambiloto Untuk Menumpas Berbagai Penyakit",
+            "penerbit": "Pustaka Baru Press, Yogyakarta"
+        },
+        "buku261": {
+            "id": "BOOK0261",
+            "nama": "Karapan Sapi",
+            "penerbit": "Graha Ilmu"
+        },
+        "buku262": {
+            "id": "BOOK0262",
+            "nama": "Seri Olahraga Senam",
+            "penerbit": "CV. Kaldera, Bogor"
+        },
+        "buku263": {
+            "id": "BOOK0263",
+            "nama": "Bekerja Dengan Windows 8",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku264": {
+            "id": "BOOK0264",
+            "nama": "Perawatan dan Perbaikan Sistem Suspensi Mobil",
+            "penerbit": "Pustaka Baru Press, Yogyakarta"
+        },
+        "buku265": {
+            "id": "BOOK0265",
+            "nama": "Menggagas Etika dan Moral Ditengah Modernitas",
+            "penerbit": "CV. ADIS, Surabaya"
+        },
+        "buku266": {
+            "id": "BOOK0266",
+            "nama": "Fisika 1A SMA Kls X",
+            "penerbit": "Yudistira"
+        },
+        "buku267": {
+            "id": "BOOK0267",
+            "nama": "Siap Jadi Juara OSN Fisika SMA Sederajat",
+            "penerbit": "Pustaka Baru Press, Yogyakarta"
+        },
+        "buku268": {
+            "id": "BOOK0268",
+            "nama": "Listrik dan Kemagnetan",
+            "penerbit": "Tiga Serangkai, Solo"
+        },
+        "buku269": {
+            "id": "BOOK0269",
+            "nama": "Bunyi dan Getaran",
+            "penerbit": "Tiga Serangkai, Solo"
+        },
+        "buku270": {
+            "id": "BOOK0270",
+            "nama": "Sistem Tata Surya",
+            "penerbit": "Tiga Serangkai, Solo"
+        },
+        "buku271": {
+            "id": "BOOK0271",
+            "nama": "Memaksimalkan Pekerjaan Dengan Shortcut Windows 7 dan MS Office",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku272": {
+            "id": "BOOK0272",
+            "nama": "Belajar Sendiri Mengoptimalkan Penggunaan Laptop",
+            "penerbit": "Yrama Widya, Bandung"
+        },
+        "buku273": {
+            "id": "BOOK0273",
+            "nama": "Belajar Singkat Menggunakan Microsoft Windows 7",
+            "penerbit": "Yrama Widya, Bandung"
+        },
+        "buku274": {
+            "id": "BOOK0274",
+            "nama": "Membuat Aplikasi Kreatif Dengan Visual Basic.Net 2013",
+            "penerbit": "CV. Andi Offset, Yogyakarta"
+        },
+        "buku275": {
+            "id": "BOOK0275",
+            "nama": "Desain Permainan Anak Dengan CorelDraw dan Photoshop",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku276": {
+            "id": "BOOK0276",
+            "nama": "Windows XP Profesional Service Pack 2",
+            "penerbit": "Dua Selaras, Surabaya"
+        },
+        "buku277": {
+            "id": "BOOK0277",
+            "nama": "Jurus Kilat Mahir Photoshop Lightroom For Photographer",
+            "penerbit": "Dunia Komputer, Jawa Barat"
+        },
+        "buku278": {
+            "id": "BOOK0278",
+            "nama": "Tip dan Trik Pemrograman Database Dengan Visual Basic 6.0",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku279": {
+            "id": "BOOK0279",
+            "nama": "Tips Unggulan Windows 7 dan 8 Untuk Perkantoran",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku280": {
+            "id": "BOOK0280",
+            "nama": "Jalan Pintas Menggunakan Windows 8 dan 10",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku281": {
+            "id": "BOOK0281",
+            "nama": "Linux Untuk Orang Awam",
+            "penerbit": "Maxicom, Palembang"
+        },
+        "buku282": {
+            "id": "BOOK0282",
+            "nama": "Kiat Sukses Mencari dan Melamar Kerja Di Internet",
+            "penerbit": "Indah, Surabaya"
+        },
+        "buku283": {
+            "id": "BOOK0283",
+            "nama": "Tip dan Trik Powerpoint 2013",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku284": {
+            "id": "BOOK0284",
+            "nama": "Fisika Untuk SMA Kls X, XI, XII",
+            "penerbit": "CV. Pustaka Setia, Bandung"
+        },
+        "buku285": {
+            "id": "BOOK0285",
+            "nama": "Rahasia Penerapan Rumus-rumus Fisika SMA",
+            "penerbit": "Gitamedia Press, Jatim"
+        },
+        "buku286": {
+            "id": "BOOK0286",
+            "nama": "The Wisdom Of Dahlan Iskan",
+            "penerbit": "Stomata, Surabaya"
+        },
+        "buku287": {
+            "id": "BOOK0287",
+            "nama": "Soekarno Poenja Tjerita",
+            "penerbit": "PT. Bentang Pustaka, Yogyakarta"
+        },
+        "buku288": {
+            "id": "BOOK0288",
+            "nama": "101 Fakta dan Mitos Menggerakkan Seputar Soekarno",
+            "penerbit": "Gramedia Widiasarana Indonesia, Jakarta"
+        },
+        "buku289": {
+            "id": "BOOK0289",
+            "nama": "Sehat dan Bugar Dengan Terapi Jus Buah dan Sayur",
+            "penerbit": "Dua Media, Surabaya"
+        },
+        "buku290": {
+            "id": "BOOK0290",
+            "nama": "Hypermatika Formula Mudah Berhitung Cepat",
+            "penerbit": "Guna Mandala, Surabaya"
+        },
+        "buku291": {
+            "id": "BOOK0291",
+            "nama": "Metodologi Penelitian Kesehatan",
+            "penerbit": "Rineka Cipta, Jakarta"
+        },
+        "buku292": {
+            "id": "BOOK0292",
+            "nama": "Desain Kemasan Untuk Produk Makanan Ringan",
+            "penerbit": "Pandu Pustaka, Yogyakarta"
+        },
+        "buku293": {
+            "id": "BOOK0293",
+            "nama": "Anatomi dan Fisiologi Untuk Paramedis",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku294": {
+            "id": "BOOK0294",
+            "nama": "Anatomi dan Fisiologi Untuk Mahasiswa Keperawatan Edisi 3",
+            "penerbit": "Buku Kedokteran"
+        },
+        "buku295": {
+            "id": "BOOK0295",
+            "nama": "Penyembuhan Alamiah Dengan Herbal dan Pijat Jawa",
+            "penerbit": "Sinar Kemala, Surabaya"
+        },
+        "buku296": {
+            "id": "BOOK0296",
+            "nama": "Etika Profesi Kebidanan",
+            "penerbit": "Fitramaya"
+        },
+        "buku297": {
+            "id": "BOOK0297",
+            "nama": "Langsung Jago Main Keyboard Otodidak Untuk Pemula",
+            "penerbit": "Pustaka Makmur, Jawa Barat"
+        },
+        "buku298": {
+            "id": "BOOK0298",
+            "nama": "Cara Cepat dan Mudah Teknik Bermain Gitar",
+            "penerbit": "Gresinda Press, Surabaya"
+        },
+        "buku299": {
+            "id": "BOOK0299",
+            "nama": "Undang-undang Dasar 1945",
+            "penerbit": "Anugerah, Surabaya"
+        },
+        "buku300": {
+            "id": "BOOK0300",
+            "nama": "Reparasi Motor Bensin dan Diesel",
+            "penerbit": "Titian Ilmu, Bandung"
+        },
+        "buku301": {
+            "id": "BOOK0301",
+            "nama": "Peralatan dan Keselamatan Dalam Pekerjaan Dasar Otomotif",
+            "penerbit": "Pustaka Baru Press, Yogyakarta"
+        },
+        "buku302": {
+            "id": "BOOK0302",
+            "nama": "Kupas Tuntas Dasar-dasar Power Train",
+            "penerbit": "Pustaka Baru Press, Yogyakarta"
+        },
+        "buku303": {
+            "id": "BOOK0303",
+            "nama": "Teknik Audio Video Mobil",
+            "penerbit": "Pustaka Baru Press, Yogyakarta"
+        },
+        "buku304": {
+            "id": "BOOK0304",
+            "nama": "Kekhilafan Para Nabi",
+            "penerbit": "Al-Basith"
+        },
+        "buku305": {
+            "id": "BOOK0305",
+            "nama": "Creative With Microsoft Office Word 2003 & 2010",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku306": {
+            "id": "BOOK0306",
+            "nama": "Desain Permainan Anak Dengan CorelDraw dan Photoshop",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku307": {
+            "id": "BOOK0307",
+            "nama": "Panduan Praktis Servis Sistem Chasis Sepeda Motor",
+            "penerbit": "Pustaka Baru Press, Yogyakarta"
+        },
+        "buku308": {
+            "id": "BOOK0308",
+            "nama": "Adobe Flash CS6 Untuk Membuat Iklan layanan Masyarakat",
+            "penerbit": "CV. Andi Offset, Yogyakarta"
+        },
+        "buku309": {
+            "id": "BOOK0309",
+            "nama": "Sistem Informasi Penjualan Dengan PHP dan MySQL",
+            "penerbit": "Gava Media, Yogyakarta"
+        },
+        "buku310": {
+            "id": "BOOK0310",
+            "nama": "Kebugaran dan Kesehatan",
+            "penerbit": "Ricardo, Jaksel"
+        },
+        "buku311": {
+            "id": "BOOK0311",
+            "nama": "Permainan Tenis Lapangan",
+            "penerbit": "Ricardo, Jaksel"
+        },
+        "buku312": {
+            "id": "BOOK0312",
+            "nama": "Teknik Permainan Futsal",
+            "penerbit": "PT. Sunda Kelapa Pustaka, Jakarta Selatan"
+        },
+        "buku313": {
+            "id": "BOOK0313",
+            "nama": "Penjelajahan dan Olahraga Alam",
+            "penerbit": "Ricardo, Jaksel"
+        },
+        "buku314": {
+            "id": "BOOK0314",
+            "nama": "Belajar Karate Secara Sistematis",
+            "penerbit": "PT. Aneka Ilmu, Semarang"
+        },
+        "buku315": {
+            "id": "BOOK0315",
+            "nama": "Buku Pintar Olahraga",
+            "penerbit": "Pustaka Baru Press, Yogyakarta"
+        },
+        "buku316": {
+            "id": "BOOK0316",
+            "nama": "Soekarno dan Soeharto di Mata Para Kiai",
+            "penerbit": "IRCiSOD, Yogyakarta"
+        },
+        "buku317": {
+            "id": "BOOK0317",
+            "nama": "Berguru Pada Soekarno",
+            "penerbit": "IRCiSOD, Yogyakarta"
+        },
+        "buku318": {
+            "id": "BOOK0318",
+            "nama": "3 Serangkai Pengubah Dunia",
+            "penerbit": "Mitra Pustaka, Yogyakarta"
+        },
+        "buku319": {
+            "id": "BOOK0319",
+            "nama": "Long life, Mandela !",
+            "penerbit": "Imania, Depok"
+        },
+        "buku320": {
+            "id": "BOOK0320",
+            "nama": "Siapa Menghianati Pak Harto ?",
+            "penerbit": "IRCiSOD, Yogyakarta"
+        },
+        "buku321": {
+            "id": "BOOK0321",
+            "nama": "Salah Apakah Gus Dur?",
+            "penerbit": "Perpustakaan"
+        },
+        "buku322": {
+            "id": "BOOK0322",
+            "nama": "Sejarah Budaya Ponorogo",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku323": {
+            "id": "BOOK0323",
+            "nama": "Resep Kue Favorit Ala Café All About Durian",
+            "penerbit": "Harmoni"
+        },
+        "buku324": {
+            "id": "BOOK0324",
+            "nama": "Serba Kue",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku325": {
+            "id": "BOOK0325",
+            "nama": "Olahan Dendeng Jadi Hidangan Lezat Dalam Waktu 30 Menit",
+            "penerbit": "Penebar Swadaya, Jakarta Timur"
+        },
+        "buku326": {
+            "id": "BOOK0326",
+            "nama": "Aneka Olahan Ikan Bandeng",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku327": {
+            "id": "BOOK0327",
+            "nama": "Seri Panganan Jadul Tetap Favorit Steak",
+            "penerbit": "CV. Pustaka Agung Harapan, Surabaya"
+        },
+        "buku328": {
+            "id": "BOOK0328",
+            "nama": "Obat Herbal Luar Biasa",
+            "penerbit": "Yrama Widya, Bandung"
+        },
+        "buku329": {
+            "id": "BOOK0329",
+            "nama": "Aneka Kriya Limbah Produk",
+            "penerbit": "Arcita, Solo"
+        },
+        "buku330": {
+            "id": "BOOK0330",
+            "nama": "Berkreasi Dengan Kain Felt",
+            "penerbit": "Arcita, Solo"
+        },
+        "buku331": {
+            "id": "BOOK0331",
+            "nama": "Kerajinan Enceng Gondok",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku332": {
+            "id": "BOOK0332",
+            "nama": "Cake Decorating Bnetuk Fauna",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku333": {
+            "id": "BOOK0333",
+            "nama": "Akseori Bersulam 39 Kreasi Sulaman Cantik Pada Bros dan Liontin Untuk Busana Muslimah dan Pesta",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku334": {
+            "id": "BOOK0334",
+            "nama": "Mengeringkan dan Mengawetkan Kupu-kupu",
+            "penerbit": "PT. Musi Perkasa Utama, Jkt"
+        },
+        "buku335": {
+            "id": "BOOK0335",
+            "nama": "Kreasi Botol dan Kaleng Bekas",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku336": {
+            "id": "BOOK0336",
+            "nama": "Meriahkan Pakaian dan Aksesorismu",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku337": {
+            "id": "BOOK0337",
+            "nama": "26 Kreasi Kertas Logam",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku338": {
+            "id": "BOOK0338",
+            "nama": "Kreasi Cantik Berbahan Kancing",
+            "penerbit": "PT. Musi Perkasa Utama, Jkt"
+        },
+        "buku339": {
+            "id": "BOOK0339",
+            "nama": "Berkreasi Dengan Kokon Sutra Emas",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku340": {
+            "id": "BOOK0340",
+            "nama": "Membuat Keramik Sederhana",
+            "penerbit": "karya Agung, Surabaya"
+        },
+        "buku341": {
+            "id": "BOOK0341",
+            "nama": "Cara Praktis Seni Merangkai Jamur",
+            "penerbit": "M2S Bandung, Bandung"
+        },
+        "buku342": {
+            "id": "BOOK0342",
+            "nama": "50 Headband Cantik Untuk Balita",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku343": {
+            "id": "BOOK0343",
+            "nama": "Boneka Mungil Dari Clay",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku344": {
+            "id": "BOOK0344",
+            "nama": "Kreasi Cantik Dari Styrofoam Byngkus Buah",
+            "penerbit": "PT. Kawan Pustaka, Jakarta"
+        },
+        "buku345": {
+            "id": "BOOK0345",
+            "nama": "Resep Kue Favorit Ala Café All About Cokelat",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku346": {
+            "id": "BOOK0346",
+            "nama": "Resep Green Tea Cake Ala Café",
+            "penerbit": "Harmoni"
+        },
+        "buku347": {
+            "id": "BOOK0347",
+            "nama": "Cara Membuat Susu Kedelai",
+            "penerbit": "Pustaka Makmur, Jawa Barat"
+        },
+        "buku348": {
+            "id": "BOOK0348",
+            "nama": "25 Cita Rasa Ikan Kerapu",
+            "penerbit": "Gresinda Press, Surabaya"
+        },
+        "buku349": {
+            "id": "BOOK0349",
+            "nama": "Aneka Resep Olahan Ayam",
+            "penerbit": "Anugerah, Surabaya"
+        },
+        "buku350": {
+            "id": "BOOK0350",
+            "nama": "Membuat Sendiri 100 Macam Olahan Pisang, Jagung dan Kelapa",
+            "penerbit": "Titian Ilmu, Bandung"
+        },
+        "buku351": {
+            "id": "BOOK0351",
+            "nama": "Olahan Frozen Seafood jadi Hidangan Lezat Dalam Waktu 30 Menit",
+            "penerbit": "Pustaka Baru Press, Yogyakarta"
+        },
+        "buku352": {
+            "id": "BOOK0352",
+            "nama": "Semua Serba Labu Kuning",
+            "penerbit": "Pustakabarupress, Yogyakarta"
+        },
+        "buku353": {
+            "id": "BOOK0353",
+            "nama": "Variasi Olahan Ikan Asin",
+            "penerbit": "Pustakabarupress, Yogyakarta"
+        },
+        "buku354": {
+            "id": "BOOK0354",
+            "nama": "Buah Naga Buah Sehat Kaya Khasiat + 40 Resep Makanan Lezat Olahannya",
+            "penerbit": "Al-Basith"
+        },
+        "buku355": {
+            "id": "BOOK0355",
+            "nama": "Aneka Mie",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku356": {
+            "id": "BOOK0356",
+            "nama": "Olahraga Boiling",
+            "penerbit": "CV. Aneka Ilmu, Semarang"
+        },
+        "buku357": {
+            "id": "BOOK0357",
+            "nama": "Olahraga Bola Basket",
+            "penerbit": "CV. Aneka Ilmu, Semarang"
+        },
+        "buku358": {
+            "id": "BOOK0358",
+            "nama": "Olahraga Anggar",
+            "penerbit": "CV. Aneka Ilmu, Semarang"
+        },
+        "buku359": {
+            "id": "BOOK0359",
+            "nama": "Olahraga Rugby",
+            "penerbit": "CV. Aneka Ilmu, Semarang"
+        },
+        "buku360": {
+            "id": "BOOK0360",
+            "nama": "Petunjuk Praktis Teknik Bermain Gitar",
+            "penerbit": "Indah, Surabaya"
+        },
+        "buku361": {
+            "id": "BOOK0361",
+            "nama": "Kursus Gitar 24 jam",
+            "penerbit": "YKS Press"
+        },
+        "buku362": {
+            "id": "BOOK0362",
+            "nama": "Teknik Praktis Penggunaan Akord Pada Lagu",
+            "penerbit": "DAP, Jakarta"
+        },
+        "buku363": {
+            "id": "BOOK0363",
+            "nama": "Trik Mudah Bermain Gitar",
+            "penerbit": "YKS Press"
+        },
+        "buku364": {
+            "id": "BOOK0364",
+            "nama": "Tata Cara Shalat dan Ziarah Kubur",
+            "penerbit": "Media Pustaka, Surabaya"
+        },
+        "buku365": {
+            "id": "BOOK0365",
+            "nama": "Kemelut Dari Masa",
+            "penerbit": "Zam-zam, Solo"
+        },
+        "buku366": {
+            "id": "BOOK0366",
+            "nama": "On Being Shadiqun Meng-Up Grade Diri Menjadi Pribadi Jujur",
+            "penerbit": "Gava Media, Yogyakarta"
+        },
+        "buku367": {
+            "id": "BOOK0367",
+            "nama": "Kumpulan Cerita Rakyat Nusantara Lengkap dari 33 Provinsi",
+            "penerbit": "Lintas Media, Jombang"
+        },
+        "buku368": {
+            "id": "BOOK0368",
+            "nama": "Tokyo G-Houl",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku369": {
+            "id": "BOOK0369",
+            "nama": "Sajak-sajak dan Renungan",
+            "penerbit": "PT. Dian Rakyat, Jakarta"
+        },
+        "buku370": {
+            "id": "BOOK0370",
+            "nama": "Model-model Media dan Pembelajaran Strategi Pembelajaran Konstektual ( Inovativ )",
+            "penerbit": "Yrama Widya, Bandung"
+        },
+        "buku371": {
+            "id": "BOOK0371",
+            "nama": "Pendidikan karakter Di Sekolah",
+            "penerbit": "Yrama Widya, Bandung"
+        },
+        "buku372": {
+            "id": "BOOK0372",
+            "nama": "Atlas Indonesia Baru dan Negara Sekitarnya",
+            "penerbit": "Yrama Widya, Bandung"
+        },
+        "buku373": {
+            "id": "BOOK0373",
+            "nama": "Pengantar Bisnis",
+            "penerbit": "Alfabeta, Bandung"
+        },
+        "buku374": {
+            "id": "BOOK0374",
+            "nama": "Strategi Belajar dan Pembelajaran Implementasi Kurikulum 2013",
+            "penerbit": "Yrama Widya, Bandung"
+        },
+        "buku375": {
+            "id": "BOOK0375",
+            "nama": "Strategi Pemanfaatan Bahan Baku,Seri Pertama Wirusaha Kreatif",
+            "penerbit": "Empatdua Media, Malang"
+        },
+        "buku376": {
+            "id": "BOOK0376",
+            "nama": "Inovasi dan Kreativitas Berbisnis, Seri Kedua Wirausaha Kreatif",
+            "penerbit": "Empatdua Media, Malang"
+        },
+        "buku377": {
+            "id": "BOOK0377",
+            "nama": "Strategi dan Taktik Promosi Produk ,Seri Ketiga Wirausaha Kreatif",
+            "penerbit": "Empatdua Media, Malang"
+        },
+        "buku378": {
+            "id": "BOOK0378",
+            "nama": "Strategi Pemasaran Produk, seri Keemapt Wirausaha Kreatif",
+            "penerbit": "Empatdua Media, Malang"
+        },
+        "buku379": {
+            "id": "BOOK0379",
+            "nama": "Kitab Undang-undang Hukum Acara Pidana",
+            "penerbit": "Politeia, Bogor"
+        },
+        "buku380": {
+            "id": "BOOK0380",
+            "nama": "Undang-undang perlindungan anak",
+            "penerbit": "Pustaka Mahardika, Yogyakarta"
+        },
+        "buku381": {
+            "id": "BOOK0381",
+            "nama": "3 Serangkai Pengubah Dunia",
+            "penerbit": "IRCiSOD, Yogyakarta"
+        },
+        "buku382": {
+            "id": "BOOK0382",
+            "nama": "Jangan Nodai Agama",
+            "penerbit": "Pustaka Pelajar"
+        },
+        "buku383": {
+            "id": "BOOK0383",
+            "nama": "Emha Ainun Nadjib Tuhan Pun Berpuasa",
+            "penerbit": "PT. Kompas Media Nusantara, Jakarta"
+        },
+        "buku384": {
+            "id": "BOOK0384",
+            "nama": "Kisah Teladan Dalam Hadist",
+            "penerbit": "Aqwam, Solo"
+        },
+        "buku385": {
+            "id": "BOOK0385",
+            "nama": "Pokok-pokok Rangkuman Kunci Ibadah, Amalan Wajib Sehari-hari",
+            "penerbit": "Al- Falah, Surabaya"
+        },
+        "buku386": {
+            "id": "BOOK0386",
+            "nama": "Competence For Success 3, Maksimalkan Potensi Diri menjadi Profesional Berkompeten",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku387": {
+            "id": "BOOK0387",
+            "nama": "Radikus Makan Kakus Bukan Binatang Biasa",
+            "penerbit": "GagasMedia"
+        },
+        "buku388": {
+            "id": "BOOK0388",
+            "nama": "Kumpulan Rumus Lengkap Fisika SMA",
+            "penerbit": "Pustaka Gama"
+        },
+        "buku389": {
+            "id": "BOOK0389",
+            "nama": "Kamus Matematika Bergambar",
+            "penerbit": "Grafindo, Jakarta"
+        },
+        "buku390": {
+            "id": "BOOK0390",
+            "nama": "Negara Bukan-bukan?",
+            "penerbit": "Ledatero, NTT"
+        },
+        "buku391": {
+            "id": "BOOK0391",
+            "nama": "Dasar-dasar Sistem Kontrol Pada Kendaraan",
+            "penerbit": "Pustakabarupress, Yogyakarta"
+        },
+        "buku392": {
+            "id": "BOOK0392",
+            "nama": "Pendidikan karakter Berbasis Wahyu",
+            "penerbit": "Gaung Persada, Tangerang Selatan"
+        },
+        "buku393": {
+            "id": "BOOK0393",
+            "nama": "Merawat dan Memperbaiki Sistem Elektronik Bodi Mobil",
+            "penerbit": "Pustakabarupress, Yogyakarta"
+        },
+        "buku394": {
+            "id": "BOOK0394",
+            "nama": "Kembalillah Kepada Allah",
+            "penerbit": "Diva Press, Yogyakarta"
+        },
+        "buku395": {
+            "id": "BOOK0395",
+            "nama": "Ilmu Alamiah Dasar",
+            "penerbit": "PT. RajaGrafindo Persada, Jakarta"
+        },
+        "buku396": {
+            "id": "BOOK0396",
+            "nama": "Risalah Ikhlas dan Ukhuwah",
+            "penerbit": "Risalah Nur Press, Banten"
+        },
+        "buku397": {
+            "id": "BOOK0397",
+            "nama": "Sembah Raga Hingga Sembah Rasa",
+            "penerbit": "Kreasi Wacana, Bantul"
+        },
+        "buku398": {
+            "id": "BOOK0398",
+            "nama": "Pelajaran Dari Alam Kubur",
+            "penerbit": "Diva Press, Yogyakarta"
+        },
+        "buku399": {
+            "id": "BOOK0399",
+            "nama": "Nikmatnya Tobat Penatnya maksiat",
+            "penerbit": "Tinta Medina, Solo"
+        },
+        "buku400": {
+            "id": "BOOK0400",
+            "nama": "Diary Of Jaka Tarub",
+            "penerbit": "Tunas Publishing, Jogjakarta"
+        },
+        "buku401": {
+            "id": "BOOK0401",
+            "nama": "Teknologi Dasar Otomotif",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku402": {
+            "id": "BOOK0402",
+            "nama": "Perawatan dan Perbaikan Comfort Safety dan Information Technology Kls XII",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku403": {
+            "id": "BOOK0403",
+            "nama": "Pemeliharaan Kelistrikaan Kendaraan Ringan Kls XI Jilid 1",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku404": {
+            "id": "BOOK0404",
+            "nama": "Pemeliharaan Kelistrikaan Kendaraan Ringan Kls XII",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku405": {
+            "id": "BOOK0405",
+            "nama": "Sistem Komputer Kls X",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku406": {
+            "id": "BOOK0406",
+            "nama": "Pemrograman Dasar Kls X",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku407": {
+            "id": "BOOK0407",
+            "nama": "Administrasi Sistem Jaringan Jilid 1",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku408": {
+            "id": "BOOK0408",
+            "nama": "Administrasi Sistem Jaringan Jilid 2",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku409": {
+            "id": "BOOK0409",
+            "nama": "Teknologi Jaringan Berbasis Luas ( WAN ) Kls XI",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku410": {
+            "id": "BOOK0410",
+            "nama": "Simulasi dan Komunikasi Digital Kls X",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku411": {
+            "id": "BOOK0411",
+            "nama": "Teknologi Layanan Jaringan Kls XI",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku412": {
+            "id": "BOOK0412",
+            "nama": "Adminstrasi Infrastruktur Jaringan",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku413": {
+            "id": "BOOK0413",
+            "nama": "Dasar Desain Grafias Kls X",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku414": {
+            "id": "BOOK0414",
+            "nama": "Desain Grafis Percetakaan Kls XI",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku415": {
+            "id": "BOOK0415",
+            "nama": "Forward An English X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku416": {
+            "id": "BOOK0416",
+            "nama": "Matematika X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku417": {
+            "id": "BOOK0417",
+            "nama": "Produktif Berbahasa Indonesia X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku418": {
+            "id": "BOOK0418",
+            "nama": "Agama Islam X",
+            "penerbit": "PT. Erlangga"
+        },
+        "buku419": {
+            "id": "BOOK0419",
+            "nama": "Pemeliharaan dan Servis Sistem Bahan Bakar Bensin",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku420": {
+            "id": "BOOK0420",
+            "nama": "Dasar Kontruksi Bangunan Kls X",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku421": {
+            "id": "BOOK0421",
+            "nama": "Teknik Pengolahan Audio Video Kls XII",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku422": {
+            "id": "BOOK0422",
+            "nama": "Animasi 2D dan 3D Kls XI",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku423": {
+            "id": "BOOK0423",
+            "nama": "Buku Seri Bahaya Narkoba \" Sejarah Narkoba  \" Jilid 1",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku424": {
+            "id": "BOOK0424",
+            "nama": "Buku Seri Bahaya Narkoba \" Penyalahgunaan Narkoba  \" Jilid 2",
+            "penerbit": "PT. Tirta Asih Jaya"
+        },
+        "buku425": {
+            "id": "BOOK0425",
+            "nama": "Buku Seri Bahaya Narkoba \" Dampak dan Bahaya Narkoba  \" Jilid 3",
+            "penerbit": "PT. Tirta Asih Jaya"
+        },
+        "buku426": {
+            "id": "BOOK0426",
+            "nama": "Buku Seri Bahaya Narkoba \" Upaya Pencegahan dan Penanggulangan Penyalahgunaan Narkoba  \" Jilid 4",
+            "penerbit": "PT. Tirta Asih Jaya"
+        },
+        "buku427": {
+            "id": "BOOK0427",
+            "nama": "Buku Seri Bahaya Narkoba \" Kamus Narkoba  \" Jilid 5",
+            "penerbit": "PT. Tirta Asih Jaya"
+        },
+        "buku428": {
+            "id": "BOOK0428",
+            "nama": "Buku Seri Bahaya Narkoba \" Tata Cara Merehabilitasi Pecandu Narkoba  \" Jilid 6",
+            "penerbit": "PT. Tirta Asih Jaya"
+        },
+        "buku429": {
+            "id": "BOOK0429",
+            "nama": "Sehimpun Cerita Bupati Roller Coaster dan Sandal Jepit Ayu",
+            "penerbit": "Media Nusa Creative, Mojokerto"
+        },
+        "buku430": {
+            "id": "BOOK0430",
+            "nama": "Sang Perawi Laut ( Kumpulan Puisi )",
+            "penerbit": "Tema Litera, Mojokerto"
+        },
+        "buku431": {
+            "id": "BOOK0431",
+            "nama": "Laskar Pelangi",
+            "penerbit": "PT. Bentang Pustaka, Yogyakarta"
+        },
+        "buku432": {
+            "id": "BOOK0432",
+            "nama": "Apotek Hidup Dari Rempah-rempah, Tanaman Hias dan Tanaman Liar",
+            "penerbit": "CV. Yrama Widya, Bandung"
+        },
+        "buku433": {
+            "id": "BOOK0433",
+            "nama": "Shodaqoh Memang Ajaib",
+            "penerbit": "Darul Qosim"
+        },
+        "buku434": {
+            "id": "BOOK0434",
+            "nama": "Kisah-kisah Mukjizat Rasulullah SAW Yang Nyaris Terlupakan",
+            "penerbit": "Pustaka Ilmu, Yogyakarta"
+        },
+        "buku435": {
+            "id": "BOOK0435",
+            "nama": "Lebih Mudah Menghafal Bacaan dan Gerakan Shalat",
+            "penerbit": "Kata Pena"
+        },
+        "buku436": {
+            "id": "BOOK0436",
+            "nama": "Pengantar Ilmu Politik",
+            "penerbit": "BinaCipta"
+        },
+        "buku437": {
+            "id": "BOOK0437",
+            "nama": "Tanah Yang Dijanjikan Milik Siapakah?",
+            "penerbit": "IRCiSOD, Yogyakarta"
+        },
+        "buku438": {
+            "id": "BOOK0438",
+            "nama": "40 Hadist Qudsi Pilihan",
+            "penerbit": "Lentera Hati, Jakarta"
+        },
+        "buku439": {
+            "id": "BOOK0439",
+            "nama": "Politik Ala Rasulullah",
+            "penerbit": "Al Basith"
+        },
+        "buku440": {
+            "id": "BOOK0440",
+            "nama": "7 Spirit Presiden",
+            "penerbit": "Syura Media Utama, Yogyakarta"
+        },
+        "buku441": {
+            "id": "BOOK0441",
+            "nama": "Berguru Pada Soekarno",
+            "penerbit": "IRCiSOD, Yogyakarta"
+        },
+        "buku442": {
+            "id": "BOOK0442",
+            "nama": "Ajaran-ajaran Spektakuler Bung Karno Pak Harto",
+            "penerbit": "IRCiSOD, Yogyakarta"
+        },
+        "buku443": {
+            "id": "BOOK0443",
+            "nama": "Undang-undang KPK",
+            "penerbit": "Bhuana Ilmu Populer"
+        },
+        "buku444": {
+            "id": "BOOK0444",
+            "nama": "Undang-undang Ketenagakerjaan",
+            "penerbit": "Huta Publisher, Depok"
+        },
+        "buku445": {
+            "id": "BOOK0445",
+            "nama": "Aku Diponegoro !",
+            "penerbit": "Kepustakaan Populer Gramedia, Jakarta"
+        },
+        "buku446": {
+            "id": "BOOK0446",
+            "nama": "Masa Aksi",
+            "penerbit": "Sega Arsy, Bandung"
+        },
+        "buku447": {
+            "id": "BOOK0447",
+            "nama": "Catatan-catatan Pejuangan ( 1946-1948 )",
+            "penerbit": "Sega Arsy, Bandung"
+        },
+        "buku448": {
+            "id": "BOOK0448",
+            "nama": "Gus Dur Guru Bangsa dan Bapak Plurarisme",
+            "penerbit": "Zahra Book, Jombang"
+        },
+        "buku449": {
+            "id": "BOOK0449",
+            "nama": "Bhayangkara Pejuang Melawan Penjajah da Arus Korupsi",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku450": {
+            "id": "BOOK0450",
+            "nama": "Ajaran Sang Wali Pemikiran Gus Dur dari Tasawuf Hingga Demokrasi",
+            "penerbit": "Pustaka Al-khumul, Tebuireng"
+        },
+        "buku451": {
+            "id": "BOOK0451",
+            "nama": "Berupaya tanpa Jeda, Bersyukur Tanpa kendur",
+            "penerbit": "Qultum Medai, Jakarta Selatan"
+        },
+        "buku452": {
+            "id": "BOOK0452",
+            "nama": "Misteri Puasa, Hemat dan Syukur",
+            "penerbit": "Risalah Nur Press, Banten"
+        },
+        "buku453": {
+            "id": "BOOK0453",
+            "nama": "Misteri dan Keajaiban Bulan Ramadhan",
+            "penerbit": "Ziyad Books, Surakarta"
+        },
+        "buku454": {
+            "id": "BOOK0454",
+            "nama": "Dahsyatnya Sedekah Tahajud, Dhuha dan Santuni Anak yatim",
+            "penerbit": "Shahih, Surakarta"
+        },
+        "buku455": {
+            "id": "BOOK0455",
+            "nama": "Cinta Subuh",
+            "penerbit": "Pustaka Arafah, Solo"
+        },
+        "buku456": {
+            "id": "BOOK0456",
+            "nama": "Menu Hidangan Sehat Nabi Muhammad SAW",
+            "penerbit": "Salamadani, Bandung"
+        },
+        "buku457": {
+            "id": "BOOK0457",
+            "nama": "Mimpi-mimpi Lintang Maryamah Karpov",
+            "penerbit": "Bentang, Yogyakarta"
+        },
+        "buku458": {
+            "id": "BOOK0458",
+            "nama": "Menjadi Kaya Dengan Sedekah",
+            "penerbit": "Mitra Pustaka, Yogyakarta"
+        },
+        "buku459": {
+            "id": "BOOK0459",
+            "nama": "Fallen In Love Jatuh Cinta",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku460": {
+            "id": "BOOK0460",
+            "nama": "Keris Gagrak Kesultanan Yogyakarta",
+            "penerbit": "Pohon Cahaya, Yogyakarta"
+        },
+        "buku461": {
+            "id": "BOOK0461",
+            "nama": "Dahsyatnya Otak Dengan Shalat",
+            "penerbit": "Mitra Pustaka, Yogyakarta"
+        },
+        "buku462": {
+            "id": "BOOK0462",
+            "nama": "Nikmatnya Tobat Penatnya maksiat",
+            "penerbit": "Tinta Median, Solo"
+        },
+        "buku463": {
+            "id": "BOOK0463",
+            "nama": "Misyakat Cahaya-cahaya",
+            "penerbit": "Mizan, Bandung"
+        },
+        "buku464": {
+            "id": "BOOK0464",
+            "nama": "Kesalahan-kesalahan Yang Sering Terjadi Dalam Puasa dan Zakat",
+            "penerbit": "Al-Qudwah, Surakarta"
+        },
+        "buku465": {
+            "id": "BOOK0465",
+            "nama": "Sukses, Kaya dan bahagia Dengan Terapi Berpifikir Positif",
+            "penerbit": "Araska, Yogyakarta"
+        },
+        "buku466": {
+            "id": "BOOK0466",
+            "nama": "Senyum Indah Kanjeng Nabi",
+            "penerbit": "Diva Press, Yogyakarta"
+        },
+        "buku467": {
+            "id": "BOOK0467",
+            "nama": "Maksiat-maksiat Penutup Rezeki dan Hidup Hina",
+            "penerbit": "Diva Press, Yogyakarta"
+        },
+        "buku468": {
+            "id": "BOOK0468",
+            "nama": "Hidup lebih berkah dan bahagia Tanpa Riba",
+            "penerbit": "Araska, Yogyakarta"
+        },
+        "buku469": {
+            "id": "BOOK0469",
+            "nama": "Rajin Shalat Tapi Sia-sia?",
+            "penerbit": "Dida Pustaka, Jawa Tengah"
+        },
+        "buku470": {
+            "id": "BOOK0470",
+            "nama": "Berpikir Positif Untuk Hidup Positif",
+            "penerbit": "Pustaka Baru Press, Yogyakarta"
+        },
+        "buku471": {
+            "id": "BOOK0471",
+            "nama": "Menoroh janji Di tanah Suci, Catatan Umroh dan haji Pipiet Senja",
+            "penerbit": "Kepustakaan Populer Gramedia, Jakarta"
+        },
+        "buku472": {
+            "id": "BOOK0472",
+            "nama": "Violet Afrika Si Cantik Seribu Warna  Berdaun Beludru",
+            "penerbit": "Yrama Widya, Bandung"
+        },
+        "buku473": {
+            "id": "BOOK0473",
+            "nama": "Windows 10 Under Cover Langkah Mudah Menguasai Windows 10",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku474": {
+            "id": "BOOK0474",
+            "nama": "All In One Web Programming",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku475": {
+            "id": "BOOK0475",
+            "nama": "Manipulasi Foto  Edisi Fantasi",
+            "penerbit": "Maxikom, Palembang"
+        },
+        "buku476": {
+            "id": "BOOK0476",
+            "nama": "Kebahagiaan Alam Kubur",
+            "penerbit": "Lintas Media"
+        },
+        "buku477": {
+            "id": "BOOK0477",
+            "nama": "Pengupahan Dalam Perspektif Hukum Ketenagakerjaan Indonesia",
+            "penerbit": "PT. Citra Aditya Bakti, Bandung"
+        },
+        "buku478": {
+            "id": "BOOK0478",
+            "nama": "Pandangan Kritis Seorang Hakim Dalam Penegakan Hukum di indonesia",
+            "penerbit": "Permata Press"
+        },
+        "buku479": {
+            "id": "BOOK0479",
+            "nama": "KUHP & KUHAP",
+            "penerbit": "Fokusindo Mandiri, Bandung"
+        },
+        "buku480": {
+            "id": "BOOK0480",
+            "nama": "Pertaturan Menteri Dalam Negeri Pedoman Pengolaan Barang Milik Daerah",
+            "penerbit": "Paradigma Yogyakarta"
+        },
+        "buku481": {
+            "id": "BOOK0481",
+            "nama": "Penddikan Pancasila",
+            "penerbit": "Safirah, Yogyakarta"
+        },
+        "buku482": {
+            "id": "BOOK0482",
+            "nama": "Kekalkah Kita Di Alam Akhirat?",
+            "penerbit": "CV. Yrama Widya, Bandung"
+        },
+        "buku483": {
+            "id": "BOOK0483",
+            "nama": "Menjadi Penulis Buku Profesional",
+            "penerbit": "Darul Imam Ahmad"
+        },
+        "buku484": {
+            "id": "BOOK0484",
+            "nama": "Kitab Undang-undang Hukum Acara Pidana",
+            "penerbit": "Al-Miftah, Surabaya"
+        },
+        "buku485": {
+            "id": "BOOK0485",
+            "nama": "Hati Sebagai Sensor Super Canggih",
+            "penerbit": "Zam-zam, Solo"
+        },
+        "buku486": {
+            "id": "BOOK0486",
+            "nama": "Indahnya Kematian",
+            "penerbit": "Grafindo"
+        },
+        "buku487": {
+            "id": "BOOK0487",
+            "nama": "Kamus Lengkap B, Indonesia Pintar",
+            "penerbit": "Titian Ilmu, Bandung"
+        },
+        "buku488": {
+            "id": "BOOK0488",
+            "nama": "Mempersiapkan Kehidupan Setelah Kematian Khusnul Khatimah",
+            "penerbit": "Yrama Widya, Bandung"
+        },
+        "buku489": {
+            "id": "BOOK0489",
+            "nama": "Pahlawan Indonesia",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku490": {
+            "id": "BOOK0490",
+            "nama": "Kiat Sukses Sang Editor",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku491": {
+            "id": "BOOK0491",
+            "nama": "Nama-nama Allah Tidak Hanya 99",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku492": {
+            "id": "BOOK0492",
+            "nama": "Etika Belajar Bagi Penuntut Ilmu",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku493": {
+            "id": "BOOK0493",
+            "nama": "Manajemen Waktu Para Ulama",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku494": {
+            "id": "BOOK0494",
+            "nama": "Perang Dunia III & Musnahnya 4 Milyar Manusia",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku495": {
+            "id": "BOOK0495",
+            "nama": "Reparasi Motor Bensin dan Diesel",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku496": {
+            "id": "BOOK0496",
+            "nama": "Ikhtisar Bimbingan Konseling & di Sekolah",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku497": {
+            "id": "BOOK0497",
+            "nama": "Menguasai Aplikasi Perangkat Lunak Dan Perancangan Interior Gedung ( Semester Ganjil )",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku498": {
+            "id": "BOOK0498",
+            "nama": "Perawatan & Perbaikan Sistem Bahan Bakar Diesel Konvensional dan Commonrail Kls XI dan XII",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku499": {
+            "id": "BOOK0499",
+            "nama": "Gambar Teknik Otomotif",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku500": {
+            "id": "BOOK0500",
+            "nama": "Pekerjaan Dasar Otomotif",
+            "penerbit": "PT. Latif Kitto Mahesa, Malang"
+        },
+        "buku501": {
+            "id": "BOOK0501",
+            "nama": "Tuhan Ahli Matematika",
+            "penerbit": "PT. Bentang Pustaka, Yogyakarta"
+        },
+        "buku502": {
+            "id": "BOOK0502",
+            "nama": "Dahsyatnya Shalat Istikharah",
+            "penerbit": "Saufa, Yogyakarta"
+        },
+        "buku503": {
+            "id": "BOOK0503",
+            "nama": "Mudahnya Menjemput Rezeki Yang Berkah",
+            "penerbit": "Assalam Publishing, Solo"
+        },
+        "buku504": {
+            "id": "BOOK0504",
+            "nama": "Fakta Ilmiah Amal Sunnah Rekomendasi Nabi",
+            "penerbit": "Sabil, Jogjakarta"
+        },
+        "buku505": {
+            "id": "BOOK0505",
+            "nama": "Astagfirullah…, Pedihnya Siksa Kubur Atas Kaum Wanita",
+            "penerbit": "Diva Pres. Jogjakarta"
+        },
+        "buku506": {
+            "id": "BOOK0506",
+            "nama": "Dan Rasul Pun Tersenyum",
+            "penerbit": "Salam Books, Bandung"
+        },
+        "buku507": {
+            "id": "BOOK0507",
+            "nama": "Ideologi Nasionalisme dan Karakter Bangsa Dalam Menjaga Keutuhan  NKRI",
+            "penerbit": "PT. Kompas Media Nusantara, Jakarta"
+        },
+        "buku508": {
+            "id": "BOOK0508",
+            "nama": "Tuhan Pun bersuara",
+            "penerbit": "Diva Press, Jogjakarta"
+        },
+        "buku509": {
+            "id": "BOOK0509",
+            "nama": "Doa dan Dzikir Hebat Bisa Mendapatkan Pekerjaan Idaman",
+            "penerbit": "Second Hope"
+        },
+        "buku510": {
+            "id": "BOOK0510",
+            "nama": "Bisa Karena Biasa",
+            "penerbit": "Media Nusa Creative"
+        },
+        "buku511": {
+            "id": "BOOK0511",
+            "nama": "Cerita-cerita Dari empunala",
+            "penerbit": "PT. Bentang Pustaka, Yogyakarta"
+        },
+        "buku512": {
+            "id": "BOOK0512",
+            "nama": "Balada Gathak Gathuk",
+            "penerbit": "Visimedia, JakSel"
+        },
+        "buku513": {
+            "id": "BOOK0513",
+            "nama": "Tangan Ke Lima",
+            "penerbit": "Bukune, Jaksel"
+        },
+        "buku514": {
+            "id": "BOOK0514",
+            "nama": "Inginku Keping Cinta Bawakan Cerita",
+            "penerbit": "Kepustakaan Populer Gramedia, jakarta"
+        },
+        "buku515": {
+            "id": "BOOK0515",
+            "nama": "Parvana 1 Sang Pencari Nafkah",
+            "penerbit": "Kepustakaan Populer Gramedia, jakarta"
+        },
+        "buku516": {
+            "id": "BOOK0516",
+            "nama": "Tartuffe",
+            "penerbit": "Jenius Publisher, Yogyakarta"
+        },
+        "buku517": {
+            "id": "BOOK0517",
+            "nama": "Love In Bali",
+            "penerbit": "Anugrah, Surabaya"
+        },
+        "buku518": {
+            "id": "BOOK0518",
+            "nama": "UUD 1945",
+            "penerbit": "PT. Karya Ilmu, Surabaya"
+        },
+        "buku519": {
+            "id": "BOOK0519",
+            "nama": "Sejarah Perjalanan UUD 1945 dari Tahun 1945 Sampai Sekarang",
+            "penerbit": "CV. Pustaka Agung Harapan, Surabaya"
+        },
+        "buku520": {
+            "id": "BOOK0520",
+            "nama": "Sehat Itu Pilihan Gaya Hidup Sehat Tanpa Repot",
+            "penerbit": "Andi Offset, Yogyakarta"
+        },
+        "buku521": {
+            "id": "BOOK0521",
+            "nama": "Kisah Nyata Membuka Pintu Rezeki Dengan Amalan Sunah",
+            "penerbit": "Dida Pustaka, Jawa Tengah"
+        },
+        "buku522": {
+            "id": "BOOK0522",
+            "nama": "Muslimah Jadilah Shalihah!",
+            "penerbit": "Kiswah Media, Solo"
+        },
+        "buku523": {
+            "id": "BOOK0523",
+            "nama": "Cekidot Gusrowi",
+            "penerbit": "Ar-Ruzz Mediaka, Jogja"
+        },
+        "buku524": {
+            "id": "BOOK0524",
+            "nama": "Shalat For Therapy",
+            "penerbit": "Pustaka Ilmu, Yogyakarta"
+        },
+        "buku525": {
+            "id": "BOOK0525",
+            "nama": "Untaian Nasihat Jiwa Bagi Wanita",
+            "penerbit": "Tinta Medina, Solo"
+        },
+        "buku526": {
+            "id": "BOOK0526",
+            "nama": "Menjadi istri Paling Bahagia Dicintai Allah dan Disayang Suami",
+            "penerbit": "Araska, Yogyakarta"
+        },
+        "buku527": {
+            "id": "BOOK0527",
+            "nama": "Jejak Besar Sang Jenderal Besar Soeharto Tak Pernah Mati",
+            "penerbit": "IDE, Surabaya"
+        },
+        "buku528": {
+            "id": "BOOK0528",
+            "nama": "B.J. Habibie Si Jenius",
+            "penerbit": "IRCiSOD, Yogyakarta"
+        },
+        "buku529": {
+            "id": "BOOK0529",
+            "nama": "Mengapa Hartaku Selalu Berkah dan Berlimpah",
+            "penerbit": "Saufa, Yogyakarta"
+        },
+        "buku530": {
+            "id": "BOOK0530",
+            "nama": "Jodoh Bukan Di Tangan Tuhan",
+            "penerbit": "Charissa Publisher, Yogyakarta"
+        },
+        "buku531": {
+            "id": "BOOK0531",
+            "nama": "Gara-gara Indonesia",
+            "penerbit": "Asma Nadia Publishing House, Depok"
+        },
+        "buku532": {
+            "id": "BOOK0532",
+            "nama": "Aktivasi Tahajud Untuk kecerdasan AkademikMu",
+            "penerbit": "Diva Press, Yogyakarta"
+        },
+        "buku533": {
+            "id": "BOOK0533",
+            "nama": "Asyiknya Berkreasi Kaligrafi",
+            "penerbit": "Yrama Widya, bandung"
+        },
+        "buku534": {
+            "id": "BOOK0534",
+            "nama": "Komik Karikatur Presiden 2014 \" Presiden Wong Cilik Koalisi Hingga Oposisi\"",
+            "penerbit": "Refrom Media, Surabaya"
+        },
+        "buku535": {
+            "id": "BOOK0535",
+            "nama": "Misteri Bangun Pagi",
+            "penerbit": "Qudsi Media, Yogyakarta"
+        },
+        "buku536": {
+            "id": "BOOK0536",
+            "nama": "Hidup Tanpa Masalah",
+            "penerbit": "Saufa, Yogyakarta"
+        },
+        "buku537": {
+            "id": "BOOK0537",
+            "nama": "Jangan Biarkan Sedekah Anda Sia-sia",
+            "penerbit": "Qiblatuna, Solo"
+        },
+        "buku538": {
+            "id": "BOOK0538",
+            "nama": "Mukjizat Sabar Syukur Ikhlas",
+            "penerbit": "Mueeza, Yogyakarta"
+        },
+        "buku539": {
+            "id": "BOOK0539",
+            "nama": "Sepatah kata Sepohon Surga",
+            "penerbit": "Tiga Serangkai, Solo"
+        },
+        "buku540": {
+            "id": "BOOK0540",
+            "nama": "Hati Bahagia, Rezeki tak Terhingga",
+            "penerbit": "Diva Press, Yogyakarta"
+        },
+        "buku541": {
+            "id": "BOOK0541",
+            "nama": "Membentuk Generasi Muslim sejati Di Tengah Globalisasi / Modernisasi",
+            "penerbit": "Al Basith"
+        },
+        "buku542": {
+            "id": "BOOK0542",
+            "nama": "Sang Kiai Tiga Generasi (KH. M. Hasyim Asy'ari, KH. A. Wahid Hasyim, Gus Dur )",
+            "penerbit": "Al-Khumul Tebuireng-Jombang"
+        },
+        "buku543": {
+            "id": "BOOK0543",
+            "nama": "20 Kebiasaan Istri Bikin Suami Sukses",
+            "penerbit": "Cinta, Surakarta"
+        },
+        "buku544": {
+            "id": "BOOK0544",
+            "nama": "Sang Pengusaha Mencari Tuhan",
+            "penerbit": "Pustaka Ilmu, Yogyakarta"
+        },
+        "buku545": {
+            "id": "BOOK0545",
+            "nama": "Banyak Maksiat Hati Rusak!",
+            "penerbit": "Tinta Medina, Solo"
+        },
+        "buku546": {
+            "id": "BOOK0546",
+            "nama": "Panduan Seorang Mukmin",
+            "penerbit": "Roemah buku, Sukoharjo"
+        },
+        "buku547": {
+            "id": "BOOK0547",
+            "nama": "Misteri Mukjizat  Mengupas Kebenaran Al-Quran dan Mukjizat Yang terkandung Di Dalamnya",
+            "penerbit": "Al Basith"
+        },
+        "buku548": {
+            "id": "BOOK0548",
+            "nama": "Metode Pengajaran Rasulullah SAW",
+            "penerbit": "Diva Press, Yogyakarta"
+        },
+        "buku549": {
+            "id": "BOOK0549",
+            "nama": "Dendam Positif",
+            "penerbit": "Sinergi Aksara, Jaksel"
+        },
+        "buku550": {
+            "id": "BOOK0550",
+            "nama": "Thesis dan Analisis",
+            "penerbit": "Sega Arsy, Bandung"
+        },
+        "buku551": {
+            "id": "BOOK0551",
+            "nama": "Yuk Ibadah di Dumay!",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku552": {
+            "id": "BOOK0552",
+            "nama": "Kisah-kisah Supranatural",
+            "penerbit": "PT. Bethlehem Publisher"
+        },
+        "buku553": {
+            "id": "BOOK0553",
+            "nama": "Soekarno Hatta Syahrir",
+            "penerbit": "Araska, Yogyakarta"
+        },
+        "buku554": {
+            "id": "BOOK0554",
+            "nama": "Al-Qur'an Mengungkap Tentang yahudi",
+            "penerbit": "Diva Press, Yogyakarta"
+        },
+        "buku555": {
+            "id": "BOOK0555",
+            "nama": "Kedahsyatan Dzikir Langit Asmaul Husna Solusi Segala Masalah",
+            "penerbit": "Shava Pustaka, Jakarta Selatan"
+        },
+        "buku556": {
+            "id": "BOOK0556",
+            "nama": "Melawan Stres dan Deperesi",
+            "penerbit": "Saufa, Yogyakarta"
+        },
+        "buku557": {
+            "id": "BOOK0557",
+            "nama": "Undang-undang Ketetangakerjaan",
+            "penerbit": "Huta Publisher, Depok"
+        },
+        "buku558": {
+            "id": "BOOK0558",
+            "nama": "Sabar Itu Super",
+            "penerbit": "Laksana, Jogjakarta"
+        },
+        "buku559": {
+            "id": "BOOK0559",
+            "nama": "Investasi Akhirat Tiada Hari Tanpa Berburu Pahala",
+            "penerbit": "Tinta Mediana, Solo"
+        },
+        "buku560": {
+            "id": "BOOK0560",
+            "nama": "Risalah Kebangkitan",
+            "penerbit": "Risalah Nur Press, Banten"
+        },
+        "buku561": {
+            "id": "BOOK0561",
+            "nama": "Berani Jujur Kunci Hidup Mujur",
+            "penerbit": "Nabawi, Solo"
+        },
+        "buku562": {
+            "id": "BOOK0562",
+            "nama": "Sepotong Cokelat Untuk Tuhan",
+            "penerbit": "CV. Nuansa Aulia, Bandung"
+        },
+        "buku563": {
+            "id": "BOOK0563",
+            "nama": "Saya Menulis Maka Saya Ada",
+            "penerbit": "CV. Nuansa Aulia, Bandung"
+        },
+        "buku564": {
+            "id": "BOOK0564",
+            "nama": "101 Inspirasi Muda Indonesia",
+            "penerbit": "Metagraf, Solo"
+        },
+        "buku565": {
+            "id": "BOOK0565",
+            "nama": "Kembalillah Kepada Allah",
+            "penerbit": "Diva Press, Yogyakarta"
+        },
+        "buku566": {
+            "id": "BOOK0566",
+            "nama": "Budaya, Massa, Agama, Wanita",
+            "penerbit": "Kepustakaan Populer Gramedia, jakarta"
+        },
+        "buku567": {
+            "id": "BOOK0567",
+            "nama": "7 Langkah Jitu Untuk Meraih Impian Anda",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku568": {
+            "id": "BOOK0568",
+            "nama": "Diguyur Cinta dan Pertolongan Allah",
+            "penerbit": "Saufa, Yogyakarta"
+        },
+        "buku569": {
+            "id": "BOOK0569",
+            "nama": "Muhasabah Cinta",
+            "penerbit": "Qultum Media, Jaksel"
+        },
+        "buku570": {
+            "id": "BOOK0570",
+            "nama": "Menjemput Rezeki Dengan Doa",
+            "penerbit": "Semesta Hikmah, Klaten"
+        },
+        "buku571": {
+            "id": "BOOK0571",
+            "nama": "Godaan Setan Dalam Ibadah",
+            "penerbit": "Pustaka Media, Surabaya"
+        },
+        "buku572": {
+            "id": "BOOK0572",
+            "nama": "Risalah Ana & Thabi'ah",
+            "penerbit": "Risalah Nur Press, Banten"
+        },
+        "buku573": {
+            "id": "BOOK0573",
+            "nama": "Undang-undang HAM & Pengadilan HAM",
+            "penerbit": "Alika, Jakarta"
+        },
+        "buku574": {
+            "id": "BOOK0574",
+            "nama": "Dahsyatnya Wakaf",
+            "penerbit": "al-Qudah, Surakarta"
+        },
+        "buku575": {
+            "id": "BOOK0575",
+            "nama": "Keutamaan Kaya Bersyukur dan Miskin Bersabar",
+            "penerbit": "Dar Ibnu Hazm, Beirut, Lebanon"
+        },
+        "buku576": {
+            "id": "BOOK0576",
+            "nama": "Rahasia Ayat Kursi",
+            "penerbit": "PT. Serambi Ilmu Semesta, Jakarta"
+        },
+        "buku577": {
+            "id": "BOOK0577",
+            "nama": "Jalan Golongan Yang Selamat",
+            "penerbit": "Darul Haq, jakarta"
+        },
+        "buku578": {
+            "id": "BOOK0578",
+            "nama": "Kupas Tuntas Pembatal Puasa Masa Kini",
+            "penerbit": "Zam-zam, Solo"
+        },
+        "buku579": {
+            "id": "BOOK0579",
+            "nama": "Suksesnya Tahajud, Kenyang Dhuha",
+            "penerbit": "Media Insani, bantul"
+        },
+        "buku580": {
+            "id": "BOOK0580",
+            "nama": "Membantah Argumentasi Syi'ah",
+            "penerbit": "Wacana Ilmiah Press, Surakarta"
+        },
+        "buku581": {
+            "id": "BOOK0581",
+            "nama": "Panduan Ibadah Saat Sakit",
+            "penerbit": "Shahir, Surakarta"
+        },
+        "buku582": {
+            "id": "BOOK0582",
+            "nama": "Untukmu Yang Ingin kaya dan Bahagia",
+            "penerbit": "Pustaka Iltizam, Solo"
+        },
+        "buku583": {
+            "id": "BOOK0583",
+            "nama": "Terapi Bersyukur",
+            "penerbit": "Messemedia"
+        },
+        "buku584": {
+            "id": "BOOK0584",
+            "nama": "Ki Ageng Suryomentaram Sang Plato Dari jawa",
+            "penerbit": "Cemerlang Publishing, Yogyakarta"
+        },
+        "buku585": {
+            "id": "BOOK0585",
+            "nama": "Habibie dan Aiunun",
+            "penerbit": "PT. THC Mandiri, jakarta"
+        },
+        "buku586": {
+            "id": "BOOK0586",
+            "nama": "Bukti-bukti Ilmiah Manfaat Ajaib Ibadah Sehari-hari",
+            "penerbit": "Sabil, Jogjakarta"
+        },
+        "buku587": {
+            "id": "BOOK0587",
+            "nama": "Presiden Buruh rakyat ( Wayang Lindur)",
+            "penerbit": "Jaring Pena, Surabaya"
+        },
+        "buku588": {
+            "id": "BOOK0588",
+            "nama": "Dulang Pahala Disaat-saat Tak Biasa",
+            "penerbit": "Diva Press, Jogjakarta"
+        },
+        "buku589": {
+            "id": "BOOK0589",
+            "nama": "42 Hadist Shalat Tahajjud & Qiyamullail",
+            "penerbit": "PT. Darul Falah, Bekasi"
+        },
+        "buku590": {
+            "id": "BOOK0590",
+            "nama": "Indahnya Kematian",
+            "penerbit": "Maktabah Al Maba, Mojokerto"
+        },
+        "buku591": {
+            "id": "BOOK0591",
+            "nama": "Atheis",
+            "penerbit": "PT. Balai Pustaka. JakTim"
+        },
+        "buku592": {
+            "id": "BOOK0592",
+            "nama": "Nasionalisme Ganda Orang Papila",
+            "penerbit": "PT. Kompas Media Nusantara, Jakarta"
+        },
+        "buku593": {
+            "id": "BOOK0593",
+            "nama": "Melukis Pelangi Catatan Hati Oki Setiana Dewi",
+            "penerbit": "PT. Mizan Pustaka, Bandung"
+        },
+        "buku594": {
+            "id": "BOOK0594",
+            "nama": "Indonesia Poenja Tjerita",
+            "penerbit": "PT. Bentang Pustaka, Yogyakarta"
+        },
+        "buku595": {
+            "id": "BOOK0595",
+            "nama": "Step By Step Membangun Aplikasi Bioskop & SMS Untuk Panduan Skripsi",
+            "penerbit": "PT. Elex Media Komputindo, Jakarta"
+        },
+        "buku596": {
+            "id": "BOOK0596",
+            "nama": "12 Bulan Mulia Amalan Sepanjang tahun",
+            "penerbit": "PT. Gramedia Pustaka Utama, Jakarta"
+        },
+        "buku597": {
+            "id": "BOOK0597",
+            "nama": "Nasihat Spiritual Mengokohkan Akidah, Menggairahkan Ibadah",
+            "penerbit": "Risalah Nur Press, Banten"
+        },
+        "buku598": {
+            "id": "BOOK0598",
+            "nama": "Dahsyatnya Ibadah Malam Hari",
+            "penerbit": "Nabawi, Solo"
+        },
+        "buku599": {
+            "id": "BOOK0599",
+            "nama": "Kumpulan Lkutbah Jumat Dua Bahasa ( Jawa-Indonesia)",
+            "penerbit": "Dida Pustaka, Jawa Tengah"
+        },
+        "buku600": {
+            "id": "BOOK0600",
+            "nama": "",
+            "penerbit": ""
+        }
+    }
+}

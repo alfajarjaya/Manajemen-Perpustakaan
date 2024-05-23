@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en, id" style="scroll-behavior: smooth !important">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="manajemen-perpustakaan">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta name="keywords" content="manajemen, perpustakaan, kurikulum merdeka">
+
+    <meta name="author" content="kelompok 8, produktif mapel pilihan, kurikulum merdeka">
+
+    <meta property="og:url" content="https://smkn1mojokerto.sch.id/sistem-manajemen-perpustakaan/">
+    <meta property="og:title" content="manajemen-perpustakaan">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id, ID">
+    <meta property="og:description" content="manajemen-perpustakaan">
+
+    <title>Hi ! {{ userName }}</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/pinjam.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/logOut.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/modules/globalAlert.css') }}" type="text/css">
+
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/skanesa.ico' ) }}" type="image/x-icon">
+
+    <script type="text/javascript" src="{{url_for('static', filename='js/disableMouse.js')}}"></script>
+
+    <style>
+        @media only screen and (max-width:768px) {
+            main {
+                margin: 0px 10px;
+            }
+
+            body {
+                padding-bottom: 200px;
+            }
+        }
+
+        @media only screen and (min-width:701px) and (max-width:1080px) {
+            main {
+                margin: 0px 200px;
+            }
+        }
+
+        @media only screen and (min-width:1140px) {
+            main {
+                margin: 0px 500px;
+            }
+
+            body {
+                padding-bottom: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="judul">
+            <div class="judul-text">
+                <h4>Peminjaman & Pengembalian Buku</h4>
+            </div>
+        </div>
+        <div class="custom-shape-divider-top-1708184955">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="table">
+                <div class="t-head">
+                    <p class="th-body">Nama</p>
+                    <p class="th-body">Aksi</p>
+                </div>
+                <div class="t-body">
+                    {% if tabel is not none%}
+                    {% for name in tabel %}
+                    <div class="t-row">
+                        <div class="t-name">
+                            <h4>{{ name }}</h4>
+                        </div>
+                        <div class="t-col">
+                            <div class="btn">
+                                <a href="/admin_pinjam/{{ name }}" class="btn-action show">show</a>
+                                <input type="hidden" name="name" id="name" value="{{ name }}">
+                                <button type="button" class="btn-action btn-remove" id="btn-remove-{{ loop.index }}" data-name="{{ name }}">
+                                    <p>remove</p>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    {% else %}
+                    <div class="t-row">
+                        <div class="t-name">
+                            <h4>Tidak ada data tabel</h4>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <section class="nv">
+        <footer class="footer">
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="{{ url_for("home") }}">
+                            <img src="{{ url_for('static', filename='img/home.png') }}" alt="home" width="30px" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('profil') }}">
+                            <img src="{{ url_for('static', filename='img/user.png') }}" alt="user" width="45px" />
+                        </a>
+                    </li>
+                    <style>
+                        ul {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 15px;
+                        }
+                    </style>
+                </ul>
+            </div>
+        </footer>
+    </section>
+
+    <script src="{{ url_for('static', filename='js/peminjamanAdmin/show-table.js') }}"></script>"
+</body>
+
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en, id" style="scroll-behavior: smooth !important">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="manajemen-perpustakaan" />
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+    <meta name="keywords" content="manajemen, perpustakaan, kurikulum merdeka" />
+
+    <meta name="author" content="kelompok 8, produktif mapel pilihan, kurikulum merdeka" />
+
+    <meta property="og:url" content="https://smkn1mojokerto.sch.id/sistem-manajemen-perpustakaan/">
+    <meta property="og:title" content="manajemen-perpustakaan" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="id, ID" />
+    <meta property="og:description" content="manajemen-perpustakaan" />
+    
+
+    <title>Hi ! {{ userName }}</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/daftar_buku.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/logOut.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/lb-deks/style.css') }}" type="text/css" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/skanesa.ico') }}" type="image/x-icon" />
+
+    <style>
+        @media only screen and (max-width: 1139px) {
+            .LB-Desktop {
+                display: none;
+            }
+        }
+
+        @media only screen and (min-width: 1140px) {
+            .LB-Mobile {
+                display: none;
+            }
+        }
+
+        #nama,
+        #kelas,
+        #NISN {
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="book">
+        <section id="daftar-buku">
+            <div class="title-buku">
+                <h1>Daftar Buku</h1>
+            </div>
+        </section>
+        <div class="search-book">
+            <div class="nav-search">
+                <input type="text" name="filter" id="filter" class="search-input"
+                    placeholder="Cari judul buku di sini..." />
+                <label for="filter" class="search-btn" id="search">
+                    <i data-feather="search" class="fas fa-search" color="#000"></i>
+                </label>
+            </div>
+        </div>
+
+        <div class="daftar-menu LB-Mobile">
+            {% for book_item in bookSisa %}
+            <ul class="list">
+                <li class="list-item">
+                    <div class="cover">
+                        <div class="nama-buku">
+                            <div class="deskripsi-buku">
+                                <form method="post">
+                                    <h3 name="nama_buku" id="jdl-buku">
+                                        {{ book_item['fill']['nama'] }}
+                                    </h3>
+                                    <input type="hidden" name="book_id" value="{{ book_item['fill']['id'] }}"
+                                        id="id-book" />
+                                    <input type="hidden" name="nama_buku_input"
+                                        value="{{ book_item['fill']['nama'] }}" />
+                                    {% if book_item['sisa'] is not none %}
+                                    <p name="sisa_buku" class="tersisa">
+                                        Tersisa : {{ book_item['sisa'] }}
+                                    </p>
+                                    <input type="hidden" name="sisa_buku_input" value="{{ book_item['sisa'] }}"
+                                        id="sisa_buku_hidden" />
+                                    {% else %}
+                                    <p name="sisa_buku" class="tersisa">
+                                        Tersisa : Data tidak tersedia
+                                    </p>
+                                    <input type="hidden" name="sisa_buku_input" value="Data tidak tersedia"
+                                        id="sisa_buku_hidden" />
+                                    {% endif %}
+                                    <div class="buttn">
+                                        <button type="button" class="btn" data-book-id="{{ book_item['fill']['id'] }}"
+                                            data-book-name="{{ book_item['fill']['nama'] }}"
+                                            data-book-author="{{ book_item['fill']['penerbit'] }}"
+                                            id="btn-edit-{{ loop.index }}">
+                                            <h6>Pinjam Buku</h6>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            {% endfor %}
+        </div>
+
+        <div class="LB-Desktop" id="list-book-desktop">
+            <div class="lb-cover">
+                <div class="lb-deskripsi-buku">
+                    <div class="container">
+                        <form method="post">
+                            <div class="tab">
+                                <div class="no">
+                                    <h3>NO</h3>
+                                </div>
+                                <div class="id">
+                                    <h3>ID Buku</h3>
+                                </div>
+                                <div class="judul">
+                                    <h3>Judul</h3>
+                                </div>
+                                <div class="jmlh-buku">
+                                    <h3>Jmlh Buku</h3>
+                                </div>
+                                <div class="action">
+                                    <h3>Action</h3>
+                                </div>
+                            </div>
+                            {% for book_item in bookSisa %}
+                            <ul class="list">
+                                <div class="edit tab">
+                                    <div class="no">
+                                        <h3>{{ loop.index }}</h3>
+                                    </div>
+                                    <div class="id">
+                                        <h3 name="book_id" id="id-book">
+                                            {{ book_item['fill']['id'] }}
+                                        </h3>
+                                    </div>
+                                    <div class="judul">
+                                        <h3 name="nama_buku" id="jdl-buku">
+                                            {{ book_item['fill']['nama'] }}
+                                        </h3>
+                                    </div>
+                                    <input type="hidden" name="book_id" value="{{ book_item['fill']['id'] }}" />
+                                    <div class="jmlh-buku">
+                                        {% if book_item['sisa'] is not none %}
+                                        <p name="sisa_buku" class="tersisa">
+                                            Tersisa : {{ book_item['sisa'] }}
+                                        </p>
+                                        <input type="hidden" name="sisa_buku_input" value="{{ book_item['sisa'] }}"
+                                            id="sisa_buku_hidden" />
+                                        {% else %}
+                                        <p name="sisa_buku" class="tersisa">
+                                            Tersisa : Data tidak tersedia
+                                        </p>
+                                        <input type="hidden" name="sisa_buku_input" value="Data tidak tersedia"
+                                            id="sisa_buku_hidden" />
+                                        {% endif %}
+                                    </div>
+                                    <div class="lb-button action">
+                                        <button type="button" class="btn" data-book-id="{{ book_item['fill']['id'] }}"
+                                            data-book-name="{{ book_item['fill']['nama'] }}"
+                                            data-book-author="{{ book_item['fill']['penerbit'] }}"
+                                            id="btn-edit-{{ loop.index }}">
+                                            <h6>Pinjam Buku</h6>
+                                        </button>
+                                    </div>
+                                </div>
+                            </ul>
+                            {% endfor %}
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="myAlert" class="overlay">
+        <div class="cover-alert">
+            <div class="alert-book" style="top: 15px;">
+                <div class="nama-buku">
+                    <div class="deskripsi-buku">
+                        <form method="post">
+                            <div class="data-buku">
+                                <p name="nama_buku" id="nama_buku"></p>
+                                <p name="penerbit" id="penerbit"></p>
+                                <p name="sisa" id="sisa"></p>
+                            </div>
+                            <input type="hidden" name="book_id" id="book_id" />
+                            <input type="hidden" name="nama_buku_input" id="nama_buku_input" />
+                            <div class="data-pinjam-user">
+                                <label for="nama">Nama : </label>
+                                <input type="text" name="nama" id="nama" value="{{ data['nama'] }}" disabled />
+                                <label for="kelas">Kelas : </label>
+                                <input type="text" name="kelas" id="kelas" value="{{ data['kelas'] }}" disabled />
+                                <label for="NISN">NISN : </label>
+                                <input type="text" name="NISN" id="NISN" value="{{ data['nomor'] }}" disabled />
+                                <label for="pinjam">Tanggal Peminjaman : </label>
+                                <input type="date" name="pinjam" id="pinjam" required>
+                            </div>
+                            <div class="warning">
+                                <p>
+                                    setelah menekan tombol pinjam, segera ambil buku di perpustakaan.
+                                </p>
+                            </div>
+                            <div class="buttn" style="display: grid; justify-items: center">
+                                <button type="button" class="btn" id="btn-pinjam">
+                                    Pinjam
+                                </button>
+                                <button type="button" class="btn-2" id="btn-cancel">
+                                    Kembali
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nv">
+        <footer class="footer">
+            <div class="navbar">
+                <ul class="nav-link">
+                    <li class="active">
+                        <a href="{{ url_for("home") }}">
+                            <img src="{{ url_for('static', filename='img/home.png') }}" alt="home" width="30px" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('profil') }}">
+                            <img src="{{ url_for('static', filename='img/user.png') }}" alt="user" width="45px" />
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </footer>
+    </section>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/search.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/module/lb_client.js') }}"></script>
+</body>
+
+</html>

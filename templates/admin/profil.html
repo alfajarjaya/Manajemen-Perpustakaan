@@ -1,20 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en, id" style="scroll-behavior: smooth !important">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="manajemen-perpustakaan" />
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <title>Hi ! {{ user }}</title>
-    <link rel="stylesheet" href="./static/css/profil.css" />
-    <script src="https://unpkg.com/feather-icons"></script>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="manajemen-perpustakaan">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta name="keywords" content="manajemen, perpustakaan, kurikulum merdeka">
+
+    <meta name="author" content="kelompok 8, produktif mapel pilihan, kurikulum merdeka">
+
+    <meta property="og:url" content="https://smkn1mojokerto.sch.id/sistem-manajemen-perpustakaan/">
+    <meta property="og:title" content="manajemen-perpustakaan">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id, ID">
+    <meta property="og:description" content="manajemen-perpustakaan">
+
+    <title>Hi ! {{ userName }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/profil.css') }}" type="text/css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/logOut.css') }}" type="text/css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/skanesa.ico') }}" type="image/x-icon">
+
+    <script type="text/javascript" src="{{url_for('static', filename='js/disableMouse.js')}}"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
     <section class="profil">
         <div class="user">
-            <img src="./static/img/portofolio pribadi.jpg" alt="user" width="20%" />
+            <img src="{{ url_for('static', filename='img/portofolio pribadi.jpg') }}" alt="user" width="20%" />
             <div class="user-text">
                 <h2>{{ user }}</h2>
             </div>
@@ -24,46 +44,73 @@
     <section class="profil-data">
         <div class="data">
             <div class="data-user">
-                <h4>{{ user }}</h4>
+                <h4>Username</h4>
+                <p>{{ user }}</p>
             </div>
-            <div class="nomor-user">{{ nomor_induk }}</div>
-            <div class="kelas-user">{{ kelas }}</div>
+            <div class="nomor-user">
+                <h4>Nomor Induk</h4>
+                <p>{{ nomor }}</p>
+            </div>
+            <div class="kelas-user">
+                <h4>Kelas</h4>
+                <p>{{ kelas }}</p>
+            </div>
             <div class="log-out">
-                <div id="log-out">
-                    <a href="{{ url_for('index') }}">
-                        Log Out
-                    </a>
-                </div>
-                <script>
-                    window.logOut = 'login.html'
-                </script>
+                <button type="button" id="btnLogout" onclick="alert()">Log Out</button>
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="nv">
         <footer class="footer">
             <div class="navbar">
                 <ul>
                     <li>
                         <a href="{{ url_for("home") }}">
-                            <i data-feather="home"></i>
+                            <img src="{{ url_for('static', filename='img/home.png') }}" alt="home" width="30px" />
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <i data-feather="user"></i>
+                            <img src="{{ url_for('static', filename='img/user.png') }}" alt="user" width="45px" />
                         </a>
                     </li>
+                    <style>
+                        ul {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 15px;
+                        }
+                    </style>
                 </ul>
             </div>
         </footer>
     </section>
 
-    <script>
-        feather.replace();
+    <script type="text/javascript">        
+        function alert() {
+            const swalButtons = Swal.mixin({
+                customClass: {
+                    confirmButton: "#ya",
+                    cancelButton: "#tidak"
+                },
+                buttonsStyling: false
+            });
+            
+            swalButtons.fire({
+                text: "Apakah kamu yakin ingin keluar?",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonText: "Ya",
+                cancelButtonText: "Tidak",
+                reverseButtons: true
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    window.location.href = "{{ url_for('logout') }}";
+                }
+            }); 
+        }
     </script>
-    <script type="text/javascript" src="./static/js/login.js"></script>
 </body>
 
 </html>

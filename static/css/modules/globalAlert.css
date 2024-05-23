@@ -1,0 +1,39 @@
+.buttn {
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.cover-alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.data-pinjam-user {
+    width: 90%;
+    text-align: center;
+}
+
+.buttn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn,
+.btn-2 {
+    padding: 10px 20px;
+}
+
+.desc {
+    margin-top: 50px;
+}
+
+p {
+    margin: 5px 0px;
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+}

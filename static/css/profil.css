@@ -4,6 +4,7 @@
   --black: #000;
   --navbar: #edb953;
   --form: #ffe600;
+  --body: #68cbe2;
 }
 
 * {
@@ -13,7 +14,7 @@
 }
 
 body {
-  background: #68cbe2;
+  background: var(--body);
   position: relative;
   padding-bottom: 150px;
 }
@@ -67,6 +68,21 @@ body {
   box-shadow: 2px 2px 5px;
 }
 
+.data-user h4,
+.nomor-user h4,
+.kelas-user h4 {
+  margin: 0px 10px;
+}
+
+.data-user p,
+.nomor-user p,
+.kelas-user p {
+  margin: 0px 10px;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -82,7 +98,7 @@ a {
   height: 30px;
   width: 100%;
   position: fixed;
-  z-index: 99999;
+  z-index: 99;
   bottom: 0;
 }
 
@@ -103,19 +119,29 @@ div .log-out {
   justify-content: center;
 }
 
-#log-out {
+#button {
   background: red;
   border: none;
   padding: 7px 25px;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 2px 2px 10px;
-}
-
-#log-out a {
+  box-shadow: 2px 2px 10px #000;
   color: #fff;
 }
 
-#log-out:active {
+#button:active {
   background: rgb(255, 107, 131);
+}
+
+.qrcode {
+  width: 100%;
+  padding: 15px 10px;
+  margin: 0;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px;
+  text-align: center;
+}
+
+.qrcode:active {
+  transform: scale(0.98);
 }

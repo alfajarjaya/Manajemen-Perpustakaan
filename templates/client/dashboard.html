@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en, id" style="scroll-behavior: smooth !important">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="manajemen-perpustakaan">
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta name="keywords" content="manajemen, perpustakaan, kurikulum merdeka">
+
+    <meta name="author" content="kelompok 8, produktif mapel pilihan, kurikulum merdeka">
+
+    <meta property="og:url" content="https://smkn1mojokerto.sch.id/sistem-manajemen-perpustakaan/">
+    <meta property="og:title" content="manajemen-perpustakaan">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id, ID">
+    <meta property="og:description" content="manajemen-perpustakaan">
+
+    <title>Hi ! {{ userName }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard_user.css') }}" type="text/css" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/skanesa.ico') }}" type="image/x-icon" />
+
+</head>
+
+<body>
+    <section id="main">
+        <section>
+            <div class="user">
+                <img src="{{ url_for('static', filename='img/portofolio pribadi.jpg') }}" alt="user" width="20%" />
+                <div class="user-text">
+                    <h4>Welcome,</h4>
+                    <h2>{{ userName }}</h2>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#fff" fill-opacity="999"
+                    d="M0,288L60,288C120,288,240,288,360,261.3C480,235,600,181,720,144C840,107,960,85,1080,85.3C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                </path>
+            </svg>
+        </section>
+
+        <section class="daftar-menu">
+            <div class="menu">
+                <div class="cover">
+                    <div class="daftar-buku">
+                        <a href="{{ url_for('list_book_client') }}">
+                            <img src="./static/img/daftar_buku.png" alt="daftar buku" width="40%" />
+                            <h6>Daftar Buku</h6>
+                        </a>
+                    </div>
+                </div>
+                <div class="cover">
+                    <div class="data-buku">
+                        <a href="{{ url_for('dataPeminjaman') }}">
+                            <img src="./static/img/diagram_batang.png" alt="data buku" width="40%" />
+                            <h6>
+                                Data Peminjaman & <br />
+                                Pengembalian buku
+                            </h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="nv">
+        <footer class="footer">
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="{{ url_for("home") }}">
+                            <img src="{{ url_for('static', filename='img/home.png') }}" alt="home" width="30px" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('profil') }}">
+                            <img src="{{ url_for('static', filename='img/user.png') }}" alt="user" width="45px" />
+                        </a>
+                    </li>
+                    <style>
+                        ul {
+                            display: flex;
+                            align-items: center;
+                            margin-top: 15px;
+                        }
+                    </style>
+                </ul>
+            </div>
+        </footer>
+    </section>
+
+</body>
+
+</html>
