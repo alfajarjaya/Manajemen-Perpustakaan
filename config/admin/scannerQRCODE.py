@@ -1,6 +1,7 @@
 import cv2
 import mysql.connector as sql
-import winsound
+from pydub import AudioSegment
+from pydub.playback import play
 import time
 import os
 import dotenv
@@ -11,11 +12,17 @@ def database():
     return sql.connect(
         host=os.getenv('HOST'),
         user=os.getenv('USER'), 
-        password=os.getenv('PASSWDORD'), 
+        password=os.getenv('PASSWORD'), 
         database=os.getenv('DATABASE_ADMIN'),
         port=os.getenv('PORT')
     )
-    
+
+def beep():
+    # Membuat suara beep menggunakan Pydub
+    beep_sound = AudioSegment.silent(duration=1000) + AudioSegment.sine(3000, duration=700)
+    # Memainkan suara beep
+    play(beep_sound)
+
 def scan_and_save(frame):
     try:
         color = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -49,7 +56,8 @@ def scan_and_save(frame):
                         cur.execute(data, qrCode)
                         konektor.commit()
                     
-                        winsound.Beep(3000, 700)
+                        beep()  # Memainkan suara beep
+                        
                         return time.sleep(1.5)
                     else:
                         return None
